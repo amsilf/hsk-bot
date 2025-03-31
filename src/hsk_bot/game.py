@@ -40,13 +40,24 @@ class VocabularyGame:
             raise ValueError(f"Invalid HSK level: {hsk_level}")
             
         file_path = self.vocabulary_path / f"hsk-{hsk_level}.csv"
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(
+            file_path,
+            quoting=1,  # QUOTE_ALL
+            escapechar='\\',
+            encoding='utf-8',
+            on_bad_lines='skip'  # Skip problematic lines instead of raising an error
+        )
+        
+        # Ensure we have the required columns
+        required_columns = ['chinese', 'pinyin', 'english']
+        if not all(col in df.columns for col in required_columns):
+            raise ValueError(f"CSV file missing required columns: {required_columns}")
         
         return [
             Word(
-                chinese=row['chinese'],
-                pinyin=row['pinyin'],
-                english=row['english'],
+                chinese=str(row['chinese']),
+                pinyin=str(row['pinyin']),
+                english=str(row['english']),
                 hsk_level=hsk_level
             )
             for _, row in df.iterrows()
