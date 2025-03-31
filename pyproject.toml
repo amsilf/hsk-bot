@@ -1,0 +1,54 @@
+[project]
+name = "hsk-bot"
+version = "0.1.0"
+description = "A Telegram bot for learning Mandarin Chinese vocabulary"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "python-telegram-bot>=20.8",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.6.1",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.12.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+    "black>=24.1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "B", "I", "N", "UP", "PL", "RUF"]
+
+[tool.ruff.isort]
+known-first-party = ["hsk_bot"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --cov=hsk_bot"
+testpaths = [
+    "tests",
+]
+python_files = ["test_*.py"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hsk_bot"] 
