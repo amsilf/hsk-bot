@@ -7,11 +7,13 @@ class PracticeMode(str, Enum):
     """Enum for practice modes.
     
     Attributes:
-        CHINESE_TO_ENGLISH: Practice translating Chinese to English
-        ENGLISH_TO_CHINESE: Practice translating English to Chinese
+        PINYIN_TO_ENGLISH: Practice translating Pinyin to English
+        CHARACTERS_TO_ENGLISH: Practice translating Chinese characters to English
+        ENGLISH_TO_CHARACTERS: Practice translating English to Chinese characters
     """
-    CHINESE_TO_ENGLISH = "chinese"
-    ENGLISH_TO_CHINESE = "english"
+    PINYIN_TO_ENGLISH = "pinyin_to_english"
+    CHARACTERS_TO_ENGLISH = "characters_to_english"
+    ENGLISH_TO_CHARACTERS = "english_to_characters"
 
 
 class Word(BaseModel):
@@ -22,12 +24,13 @@ class Word(BaseModel):
         pinyin: The pinyin romanization
         english: The English translation
         hsk_level: The HSK level (1-6)
+        part_of_speech: The part of speech (noun, verb, etc.)
     """
     chinese: str = Field(..., description="Chinese character(s)")
     pinyin: str = Field(..., description="Pinyin romanization")
     english: str = Field(..., description="English translation")
     hsk_level: int = Field(..., ge=1, le=6, description="HSK level (1-6)")
-
+    part_of_speech: str = Field(..., description="Part of speech")
 
 class UserState(BaseModel):
     """Represents the current state of a user's learning session.

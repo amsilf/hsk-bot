@@ -3,8 +3,11 @@ from typing import Optional
 import pandas as pd
 import random
 import time
+import logging
 
 from .models import Word, UserState, GameSession, PracticeMode
+
+logger = logging.getLogger(__name__)
 
 
 class VocabularyGame:
@@ -36,32 +39,55 @@ class VocabularyGame:
             FileNotFoundError: If vocabulary file doesn't exist
             ValueError: If HSK level is invalid
         """
+        logger.info(f"Loading vocabulary for HSK level {hsk_level}")
+        
         if not 1 <= hsk_level <= 6:
+            logger.error(f"Invalid HSK level requested: {hsk_level}")
             raise ValueError(f"Invalid HSK level: {hsk_level}")
             
         file_path = self.vocabulary_path / f"hsk-{hsk_level}.csv"
-        df = pd.read_csv(
-            file_path,
-            quoting=1,  # QUOTE_ALL
-            escapechar='\\',
-            encoding='utf-8',
-            on_bad_lines='skip'  # Skip problematic lines instead of raising an error
-        )
+        logger.info(f"Attempting to load vocabulary from: {file_path}")
+        
+        # Read CSV with pipe separator
+        try:
+            df = pd.read_csv(
+                file_path,
+                sep='|',  # Use pipe as separator
+                encoding='utf-8',
+                dtype=str,  # Read all columns as strings
+                on_bad_lines='warn'  # Warn about problematic lines instead of failing
+            )
+            logger.info(f"Successfully loaded CSV with {len(df)} entries")
+        except Exception as e:
+            logger.error(f"Error loading CSV file: {e}")
+            raise
+        
+        # Convert column names to lowercase for case-insensitive matching
+        df.columns = df.columns.str.lower()
         
         # Ensure we have the required columns
-        required_columns = ['chinese', 'pinyin', 'english']
-        if not all(col in df.columns for col in required_columns):
-            raise ValueError(f"CSV file missing required columns: {required_columns}")
+        required_columns = ['chinese', 'pinyin', 'english', 'part_of_speech']
+        missing_columns = [col for col in required_columns if col not in df.columns]
+        if missing_columns:
+            logger.error(f"Missing required columns in CSV: {missing_columns}")
+            raise ValueError(f"Missing required columns: {missing_columns}")
         
-        return [
-            Word(
-                chinese=str(row['chinese']),
-                pinyin=str(row['pinyin']),
-                english=str(row['english']),
-                hsk_level=hsk_level
-            )
-            for _, row in df.iterrows()
-        ]
+        words = []
+        for _, row in df.iterrows():
+            try:
+                word = Word(
+                    chinese=str(row['chinese']).strip(),
+                    pinyin=str(row['pinyin']).strip(),
+                    english=str(row['english']).strip(),
+                    part_of_speech=str(row['part_of_speech']).strip(),
+                    hsk_level=hsk_level
+                )
+                words.append(word)
+            except Exception as e:
+                logger.warning(f"Skipping invalid row: {row} due to error: {e}")
+        
+        logger.info(f"Successfully loaded {len(words)} words for HSK level {hsk_level}")
+        return words
 
     def start_session(self, user_id: int, hsk_level: int, mode: PracticeMode) -> GameSession:
         """Start a new learning session for a user.
@@ -107,8 +133,61 @@ class VocabularyGame:
         session.user_state.current_word = word
         return word
 
+    def _generate_word_variations(self, word: Word) -> set[str]:
+        """Generate possible variations of a word based on its part of speech.
+        
+        Args:
+            word: Word object containing the word and its part of speech
+            
+        Returns:
+            Set of possible variations of the word
+        """
+        variations = set()
+        
+        # Split English translations and clean each part
+        for translation in word.english.lower().split(','):
+            translation = translation.strip()
+            variations.add(translation)
+            
+            # Add individual words from the phrase
+            words = translation.split()
+            variations.update(words)
+            
+            # Based on part of speech, add common variations
+            pos = word.part_of_speech.lower()
+            
+            if pos == 'verb':
+                # Handle verb variations
+                if translation.startswith('to '):
+                    # If it starts with 'to', add version without 'to'
+                    variations.add(translation.replace('to ', '', 1))
+                else:
+                    # If it doesn't start with 'to', add version with 'to'
+                    variations.add(f"to {translation}")
+                    
+            elif pos == 'noun':
+                # Handle noun variations with articles
+                for article in ['a', 'an', 'the']:
+                    variations.add(f"{article} {translation}")
+                # Handle plural forms (basic -s rule)
+                if not translation.endswith('s'):
+                    variations.add(f"{translation}s")
+                    
+            elif pos == 'measure word':
+                # Handle measure word variations
+                variations.add(translation.replace('measure word', '').strip())
+                variations.add(translation.replace('a measure word', '').strip())
+                variations.add(translation.replace('for', '').strip())
+                
+        return variations
+
     def check_answer(self, user_id: int, answer: str) -> bool:
         """Check if the user's answer is correct.
+        
+        Handles variations based on part of speech:
+        - Verbs: accepts with or without 'to'
+        - Nouns: accepts with or without articles
+        - Measure words: accepts variations of the description
         
         Args:
             user_id: Telegram user ID
@@ -125,13 +204,28 @@ class VocabularyGame:
             raise ValueError("No active session or current word")
             
         current_word = session.user_state.current_word
-        expected = (
-            current_word.english.lower()
-            if session.user_state.practice_mode == PracticeMode.CHINESE_TO_ENGLISH
-            else current_word.chinese
-        )
+        user_answer = answer.lower().strip()
         
-        is_correct = answer.lower().strip() == expected.lower().strip()
+        mode = session.user_state.practice_mode
+        if mode in [PracticeMode.PINYIN_TO_ENGLISH, PracticeMode.CHARACTERS_TO_ENGLISH]:
+            # Get all possible variations of the correct answer
+            expected_variations = self._generate_word_variations(current_word)
+            
+            # Check if user's answer matches any variation
+            is_correct = user_answer in expected_variations
+            
+            # If not exact match, try more flexible matching
+            if not is_correct:
+                # Remove articles from user's answer and try again
+                user_answer_no_articles = ' '.join(
+                    word for word in user_answer.split() 
+                    if word not in ['a', 'an', 'the', 'to']
+                ).strip()
+                is_correct = user_answer_no_articles in expected_variations
+                
+        else:  # ENGLISH_TO_CHARACTERS
+            # For Chinese character answers, exact match required
+            is_correct = user_answer == current_word.chinese.strip()
         
         # Update statistics
         session.user_state.total_attempts += 1

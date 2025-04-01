@@ -65,8 +65,22 @@ class HSKBot:
         """Show practice mode selection keyboard."""
         keyboard = [
             [
-                InlineKeyboardButton("Chinese → English", callback_data="mode_chinese"),
-                InlineKeyboardButton("English → Chinese", callback_data="mode_english"),
+                InlineKeyboardButton(
+                    "Pinyin → English", 
+                    callback_data="mode_pinyin_to_english"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "Characters → English", 
+                    callback_data="mode_characters_to_english"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "English → Characters", 
+                    callback_data="mode_english_to_characters"
+                )
             ]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -86,12 +100,15 @@ class HSKBot:
             )
             return
 
-        prompt = (
-            f"Translate this word: {word.chinese}"
-            if mode == PracticeMode.CHINESE_TO_ENGLISH
-            else f"Translate this word: {word.english}"
-        )
-        
+        # Show the correct format based on practice mode
+        if mode == PracticeMode.PINYIN_TO_ENGLISH:
+            shown_word = word.pinyin
+        elif mode == PracticeMode.CHARACTERS_TO_ENGLISH:
+            shown_word = word.chinese
+        else:  # ENGLISH_TO_CHARACTERS
+            shown_word = word.english
+
+        prompt = f"Translate this word: {shown_word}"
         await update.callback_query.message.reply_text(prompt)
 
     async def handle_callback(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -108,40 +125,64 @@ class HSKBot:
             await self.show_mode_selection(update)
             
         elif data.startswith("mode_"):
-            mode = PracticeMode.CHINESE_TO_ENGLISH if data == "mode_chinese" else PracticeMode.ENGLISH_TO_CHINESE
+            mode_str = data.replace("mode_", "")
+            mode = PracticeMode(mode_str)
             level = context.user_data.get("hsk_level", 1)
             await self.start_practice(update, user_id, level, mode)
 
     async def handle_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         """Handle user answers."""
         user_id = update.effective_user.id
-        answer = update.message.text
+        answer = update.message.text.strip()
 
         try:
-            is_correct = self.game.check_answer(user_id, answer)
             session = self.game.active_sessions.get(user_id)
-            
             if not session:
                 await update.message.reply_text(
                     "No active session. Use /start to begin practice."
                 )
                 return
 
-            feedback = "✅ Correct!" if is_correct else "❌ Incorrect!"
             current_word = session.user_state.current_word
-            if current_word:
-                feedback += f"\nPinyin: {current_word.pinyin}"
+            if not current_word:
+                await update.message.reply_text(
+                    "No current word. Please start a new session with /start"
+                )
+                return
+
+            is_correct = self.game.check_answer(user_id, answer)
+            
+            # Show the correct format in feedback
+            mode = session.user_state.practice_mode
+            if mode == PracticeMode.PINYIN_TO_ENGLISH:
+                correct_answer = current_word.english
+                next_shown_word = current_word.pinyin
+                feedback_extra = f"\nChinese: {current_word.chinese}"
+            elif mode == PracticeMode.CHARACTERS_TO_ENGLISH:
+                correct_answer = current_word.english
+                next_shown_word = current_word.chinese
+                feedback_extra = f"\nPinyin: {current_word.pinyin}"
+            else:  # ENGLISH_TO_CHARACTERS
+                correct_answer = current_word.chinese
+                next_shown_word = current_word.english
+                feedback_extra = f"\nPinyin: {current_word.pinyin}"
+
+            feedback = "✅ Correct!" if is_correct else f"❌ Incorrect! The correct answer was: {correct_answer}"
+            feedback += feedback_extra
                 
             await update.message.reply_text(feedback)
             
             # Show next word
             next_word = self.game.get_next_word(user_id)
             if next_word:
-                prompt = (
-                    f"Next word: {next_word.chinese}"
-                    if session.user_state.practice_mode == PracticeMode.CHINESE_TO_ENGLISH
-                    else f"Next word: {next_word.english}"
-                )
+                if mode == PracticeMode.PINYIN_TO_ENGLISH:
+                    shown_word = next_word.pinyin
+                elif mode == PracticeMode.CHARACTERS_TO_ENGLISH:
+                    shown_word = next_word.chinese
+                else:  # ENGLISH_TO_CHARACTERS
+                    shown_word = next_word.english
+                    
+                prompt = f"Next word: {shown_word}"
                 await update.message.reply_text(prompt)
                 
         except ValueError as e:
