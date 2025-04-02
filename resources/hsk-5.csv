@@ -1,151 +1,1301 @@
-n|chinese|pinyin|english|part_of_speech
-1|我|wǒ|I, me|pronoun
-2|我们|wǒmen|we, us|pronoun
-3|你|nǐ|you|pronoun
-4|他|tā|he, him|pronoun
-5|她|tā|she, her|pronoun
-6|这 (这儿)|zhè (zhèr)|this, here|pronoun
-7|那 (那儿)|nà (nàr)|that, there|pronoun
-8|哪|nǎ|which|pronoun
-9|哪儿|nǎr|where|pronoun
-10|谁|shéi|who|pronoun
-11|什么|shénme|what, why|pronoun
-12|多少|duōshǎo|how many, how much|pronoun
-13|几|jǐ|a few, how many|pronoun
-14|怎么|zěnme|how|pronoun
-15|怎么样|zěnmeyàng|how about|pronoun
-16|一|yī|one|numeral
-17|二|èr|two|numeral
-18|三|sān|three|numeral
-19|四|sì|four|numeral
-20|五|wǔ|five|numeral
-21|六|liù|six|numeral
-22|七|qī|seven|numeral
-23|八|bā|eight|numeral
-24|九|jiǔ|nine|numeral
-25|十|shí|ten|numeral
-26|个|gè|a measure word for normal objects|measure word
-27|岁|suì|a measure word for age|measure word
-28|本|běn|a measure word for books|measure word
-29|些|xiē|some|measure word
-30|块|kuài|piece, chunk|measure word
-31|不|bù|no|adverb
-32|没|méi|no|adverb
-33|很|hěn|quite, very|adverb
-34|太|tài|too|adverb
-35|都|dōu|all|adverb
-36|一点儿|yīdiǎnr|a little bit|adverb
-37|和|hé|and|conjunction
-38|在|zài|in, at|preposition
-39|的|de| |particle
-40|了|le| |particle
-41|吗|ma| |particle
-42|呢|ne| |particle
-43|喂|wèi|hello|interjection
-44|家|jiā|home|noun
-45|学校|xuéxiào|school|noun
-46|饭店|fàndiàn|restaurant|noun
-47|商店|shāngdiàn|store|noun
-48|医院|yīyuàn|hospital|noun
-49|中国|Zhōngguò|China|noun
-50|北京|Běijīng|Beijing|noun
-51|上|shàng|up|noun
-52|下|xià|down|noun
-53|前面|qiánmiàn|front|noun
-54|后面|hòumiàn|behind|noun
-55|里|lǐmiàn|inside|noun
-56|今天|jīntiān|today|noun
-57|明天|míngtiān|tomorrow|noun
-58|昨天|zuótiān|yesterday|noun
-59|上午|shàngwǔ|morning|noun
-60|中午|zhōngwǔ|noon|noun
-61|下午|xiàwǔ|afternoon|noun
-62|年|nián|year|noun
-63|月|yuè|month|noun
-64|号|hào|number/date|noun
-65|星期|xīngqī|week|noun
-66|点|diǎn|o’clock|noun
-67|分钟|fēnzhōng|minute|noun
-68|现在|xiànzài|now|noun
-69|时候|shíhou|time|noun
-70|爸爸|bàba|father|noun
-71|妈妈|māma|mother|noun
-72|儿子|érzi|son|noun
-73|女儿|nǚér|daughter|noun
-74|老师|lǎoshī|teacher|noun
-75|学生|xuéshēng|student|noun
-76|同学|tóngxué|classmate|noun
-77|朋友|péngyǒu|friend|noun
-78|医生|yīshēng|doctor|noun
-79|先生|xiānsheng|sir|noun
-80|小姐|xiǎojiě|miss|noun
-81|衣服|yīfu|cloth|noun
-82|水|shuǐ|water|noun
-83|菜|cài|dish|noun
-84|米饭|mǐfàn|rice|noun
-85|水果|shuǐguǒ|fruit|noun
-86|苹果|píngguǒ|apple|noun
-87|茶|chá|tea|noun
-88|杯子|bēizi|cup|noun
-89|钱|qián|money|noun
-90|飞机|fēijī|airplane|noun
-91|出租车|chūzūchē|taxi|noun
-92|电视|diànshì|television|noun
-93|电脑|diànnǎo|computer|noun
-94|电影|diànyǐng|movie|noun
-95|天气|tiānqì|weather|noun
-96|猫|māo|cat|noun
-97|狗|gǒu|dog|noun
-98|东西|dōngxi|thing|noun
-99|人|rén|person|noun
-100|名字|míngzi|name|noun
-101|书|shū|book|noun
-102|汉语|hànyǔ|mandarin chinese|noun
-103|字|zì|character|noun
-104|桌子|zhuōzi|desk|noun
-105|椅子|yǐzi|chair|noun
-106|谢谢|xièxie|thanks|verb
-107|不客气|búkèqì|you are welcome|verb
-108|再见|zàijiàn|good bye|verb
-109|请|qǐng|please|verb
-110|对不起|duìbùqǐ|sorry|verb
-111|没关系|méiguānxì|It doesn’t matter|verb
-112|是|shì|to be|verb
-113|有|yǒu|have|verb
-114|看|kàn|look|verb
-115|听|tīng|listen|verb
-116|说|shuō|speak|verb
-117|读|dú|read|verb
-118|写|xiě|write|verb
-119|看见|kànjiàn|see|verb
-120|叫|jiào|call|verb
-121|来|lái|come|verb
-122|回|huí|return|verb
-123|去|qù|go|verb
-124|吃|chī|eat|verb
-125|喝|hē|drink|verb
-126|睡觉|shuìjiào|sleep|verb
-127|打电话|dǎdiànhuà|make phone call|verb
-128|做|zuò|do|verb
-129|买|mǎi|buy|verb
-130|开|kāi|open|verb
-131|坐|zuò|sit|verb
-132|住|zhù|live|verb
-133|学习|xuéxí|study|verb
-134|工作|gōngzuò|work|verb
-135|下雨|xiàyǔ|rain|verb
-136|爱|ài|love|verb
-137|喜欢|xǐhuān|love, like|verb
-138|想|xiǎng|want|verb
-139|认识|rènshi|know|verb
-140|会|huì|can|verb
-141|能|néng|can, be able to|verb
-142|好|hǎo|good|adjective
-143|大|dà|big|adjective
-144|小|xiǎo|small|adjective
-145|多|duō|many, much|adjective
-146|少|shǎo|few, little|adjective
-147|冷|lěng|cold|adjective
-148|热|rè|hot|adjective
-149|高兴|gāoxìng|happy|adjective
-150|漂亮|piàoliang|beautiful|adjective
+No|Chinese|Pinyin|English|part_of_speech
+1|唉|āi|alas|interjection
+2|爱心|àixīn|love|noun
+3|安慰|ānwèi|comfort|verb
+4|岸|àn|bank|noun
+5|熬夜|áoyè|stay up late|verb
+6|包含|bāohán|Contain|verb
+7|宝贵|bǎoguì|valuable|adjective
+8|保存|bǎocún|Preservation|noun
+9|保留|bǎoliú|Retain|verb
+10|报到|bàodào|register,check in|verb
+11|报告|bàogào|Presentation|noun
+12|悲观|bēiguān|Pessimism|noun
+13|背景|bèijǐng|background|noun
+14|被子|bèizi|quilt|noun
+15|本科|běnkē|Undergraduate|noun
+16|本领|běnlǐng|ability|noun
+17|比例|bǐlì|Proportion|noun
+18|必然|bìrán|Inevitable|adjective
+19|必要|bìyào|necessary|adjective
+20|鞭炮|biānpào|firecracker|noun
+21|辩论|biànlùn|Debate|noun
+22|标志|biāozhì|sign|noun
+23|表达|biǎodá|Expression|noun
+24|表面|biǎomiàn|surface|noun
+25|表情|biǎoqíng|Expression|noun
+26|表现|biǎoxiàn|performance|noun
+27|冰激凌|bīngjīlíng|ice cream|noun
+28|玻璃|bōli|Glass|noun
+29|博物馆|bówùguǎn|Museum|noun
+30|不断|búduàn|Constantly|adverb
+31|不见得|bújiàndé|Not necessarily|adverb
+32|不耐烦|búnàifán|Impatient|adjective
+33|补充|bǔchōng|supplement|verb
+34|不然|bùrán|otherwise|adverb
+35|不足|bùzú|insufficient|adjective
+36|部门|bùmén|department|noun
+37|财产|cáichǎn|property|noun
+38|踩|cǎi|step on|verb
+39|采取|cǎiqǔ|take, adopt|verb
+40|参考|cānkǎo|Reference resources|noun
+41|操场|cāochǎng|Playground|noun
+42|插|chā|insert|verb
+43|叉子|chāzi|Fork|noun
+44|拆|chāi|Remove|verb
+45|产生|chǎnshēng|produce|verb
+46|常识|chángshí|common sense|noun
+47|潮湿|cháoshī|damp|adjective
+48|吵|chǎo|Noisy|adjective
+49|车库|chēkù|Garage|noun
+50|彻底|chèdǐ|thorough|adjective
+51|趁|chèn|while|preposition
+52|称|chēng|call|verb
+53|称赞|chēngzàn|Praise|noun
+54|承担|chéngdān|bear|verb
+55|承受|chéngshòu|bear|verb
+56|程序|chéngxù|program|noun
+57|成立|chénglì|establish|verb
+58|成人|chéngrén|adult|noun
+59|成语|chéngyǔ|idiom|noun
+60|诚恳|chéngkěn|sincere|adjective
+61|持续|chíxù|Continued|adjective
+62|尺子|chǐzi|Ruler|noun
+63|冲|chōng|punching|verb
+64|充分|chōngfèn|To the full|adverb
+65|重复|chóngfù|repeat|verb
+66|宠物|chǒngwù|Pet|noun
+67|抽象|chōuxiàng|abstract|adjective
+68|丑|chǒu|ugly|adjective
+69|出口|chūkǒu|Exit|noun
+70|出示|chūshì|show|verb
+71|出席|chūxí|Attend|verb
+72|除非|chúfēi|Unless|conjunction
+73|除夕|chúxī|the New Year’s Eve|noun
+74|处理|chǔlǐ|Handle|verb
+75|传染|chuánrǎn|contagion|noun
+76|传统|chuántǒng|tradition|noun
+77|闯|chuǎng|rush; dash|verb
+78|吹|chuī|blow|verb
+79|此外|cǐwài|in addition|adverb
+80|次要|cìyào|secondary|adjective
+81|匆忙|cōngmáng|hastily|adverb
+82|从而|cóng’ér|thus|adverb
+83|从前|cóngqián|before|adverb
+84|粗糙|cūcāo|rough|adjective
+85|醋|cù|vinegar|noun
+86|促使|cùshǐ|Urge|verb
+87|措施|cuòshī|Measures|noun
+88|打工|dǎgōng|Work|verb
+89|大厦|dàshà|Large building|noun
+90|大象|dàxiàng|Elephant|noun
+91|代表|dàibiǎo|representative|noun
+92|待遇|dàiyù|treatment|noun
+93|单调|dāndiào|monotonous|adjective
+94|单位|dānwèi|Company|noun
+95|担任|dānrèn|To serve as|verb
+96|耽误|dānwu|delay|verb
+97|淡|dàn|light|adjective
+98|倒霉|dǎoméi|fall on evil days|verb
+99|道理|dàolǐ|truth|noun
+100|登记|dēngjì|register|verb
+101|等于|děngyú|Be equal to|verb
+102|滴|dī|drop|noun
+103|敌人|dírén|Enemy|noun
+104|递|dì|Delivery|noun
+105|地毯|dìtǎn|Carpet|noun
+106|地震|dìzhèn|earthquake|noun
+107|电池|diànchí|Battery|noun
+108|顶|dǐng|top|noun
+109|冻|dòng|freeze|verb
+110|动画片|dònghuàpiàn|Cartoon|noun
+111|逗|dòu|Funny|adjective
+112|独特|dútè|unique|adjective
+113|度过|dùguò|Spend|verb
+114|对比|duìbǐ|Contrast|noun
+115|对待|duìdài|treat|verb
+116|对手|duìshǒu|Opponent|noun
+117|吨|dūn|ton|noun
+118|顿|dùn|Meal|noun
+119|多亏|duōkuī|thanks to|adverb
+120|朵|duǒ|classifier of flower|noun
+121|发表|fābiǎo|Publish|verb
+122|发达|fādá|To develop|verb
+123|发挥|fāhuī|Develop|verb
+124|发票|fāpiào|invoice|noun
+125|发言|fāyán|give a speech|verb
+126|罚款|fákuǎn|forfeit; amerce; fine|verb
+127|法院|fǎyuàn|Court|noun
+128|繁荣|fánróng|Boom|noun
+129|反而|fǎn’ér|Instead|adverb
+130|反应|fǎnyìng|reaction|noun
+131|反正|fǎnzhèng|anyway|adverb
+132|范围|fànwéi|Range|noun
+133|方案|fāng’àn|programme|noun
+134|方式|fāngshì|mode|noun
+135|妨碍|fáng’ài|Hinder|verb
+136|肥皂|féizào|soap|noun
+137|分布|fēnbù|distribution|noun
+138|分手|fēnshǒu|Break up|verb
+139|风景|fēngjǐng|Scenery|noun
+140|风险|fēngxiǎn|risk|noun
+141|讽刺|fěngcì|satire|noun
+142|否认|fǒurèn|deny|verb
+143|扶|fú|hold up|verb
+144|复制|fùzhì|copy|verb
+145|改进|gǎijìn|Improvement|noun
+146|改正|gǎizhèng|correction|noun
+147|概括|gàikuò|Generalization|noun
+148|感想|gǎnxiǎng|Feel|verb
+149|赶快|gǎnkuài|hurry up|verb
+150|干活儿|gànhuór|work on a job|verb
+151|高级|gāojí|senior|adjective
+152|告别|gàobié|farewell|noun
+153|隔壁|gébì|next door|noun
+154|个人|gèrén|personal|adjective
+155|各自|gèzì|Each|pronoun
+156|根本|gēnběn|at all|adverb
+157|公开|gōngkāi|open|adjective
+158|公平|gōngpíng|fair|adjective
+159|公寓|gōngyù|apartment|noun
+160|工厂|gōngchǎng|factory|noun
+161|工具|gōngjù|tool|noun
+162|工业|gōngyè|Industry|noun
+163|功能|gōngnéng|function|noun
+164|沟通|gōutōng|Communicate|verb
+165|姑娘|gūniang|girl|noun
+166|古代|gǔdài|Ancient|adjective
+167|鼓掌|gǔzhǎng|applause|noun
+168|骨头|gǔtou|Bone|noun
+169|乖|guāi|Good behaved|adjective
+170|怪不得|guàibude|No wonder|adverb
+171|观察|guānchá|observation|noun
+172|观念|guānniàn|concept|noun
+173|冠军|guànjūn|Champion|noun
+174|光滑|guānghuá|smooth|adjective
+175|光明|guāngmíng|light|noun
+176|广大|guǎngdà|Vast|adjective
+177|规律|guīlǜ|Law|noun
+178|规则|guīzé|rule|noun
+179|滚|gǔn|rolling|verb
+180|国庆节|guóqìngjié|National Day|noun
+181|果实|guǒshí|fruit|noun
+182|过敏|guòmǐn|allergy|noun
+183|海鲜|hǎixiān|seafood|noun
+184|豪华|háohuá|luxury|noun
+185|好奇|hàoqí|Be curious|verb
+186|何必|hébì|Why|adverb
+187|合法|héfǎ|legitimate|adjective
+188|合理|hélǐ|reasonable|adjective
+189|合同|hétong|contract|noun
+190|合作|hézuò|cooperation|noun
+191|恨|hèn|hate|verb
+192|猴子|hóuzi|Monkey|noun
+193|后背|hòubèi|back|noun
+194|忽视|hūshì|Ignore|verb
+195|壶|hú|pot|noun
+196|胡说|húshuō|Nonsense|noun
+197|糊涂|hútu|Confused|adjective
+198|花生|huāshēng|peanut|noun
+199|划|huá|Rowing|verb
+200|话题|huàtí|Topic of conversation|noun
+201|怀念|huáiniàn|miss|verb
+202|怀孕|huáiyùn|become pregnant|verb
+203|慌张|huāngzhāng|flurried|adjective
+204|黄金|huángjīn|gold|noun
+205|灰|huī|ash|noun
+206|灰心|huīxīn|Lose heart; be discouraged|verb
+207|婚礼|hūnlǐ|wedding|noun
+208|活跃|huóyuè|active|adjective
+209|伙伴|huǒbàn|Partner|noun
+210|或许|huòxǔ|maybe; probably|adverb
+211|基本|jīběn|basic|adjective
+212|机器|jīqì|machine|noun
+213|及格|jígé|pass|verb
+214|集合|jíhé|aggregate|verb
+215|集中|jízhōng|focus|verb
+216|急诊|jízhěn|emergency|noun
+217|记忆|jìyì|memory|noun
+218|纪录|jìlù|Record|noun
+219|纪念|jìniàn|memorialize|verb
+220|家务|jiāwù|Housework|noun
+221|嘉宾|jiābīn|Distinguished guest|noun
+222|甲|jiǎ|nail|noun
+223|假如|jiǎrú|If|conjunction
+224|假装|jiǎzhuāng|pretend|verb
+225|驾驶|jiàshǐ|Drive|verb
+226|坚强|jiānqiáng|Firm|adjective
+227|艰苦|jiānkǔ|hard|adjective
+228|捡|jiǎn|pick up|verb
+229|简直|jiǎnzhí|simply|adverb
+230|健身|jiànshēn|workout|verb
+231|建设|jiànshè|build|verb
+232|建筑|jiànzhù|Architecture|noun
+233|键盘|jiànpán|keyboard|noun
+234|讲座|jiǎngzuò|Lecture|noun
+235|酱油|jiàngyóu|soy sauce|noun
+236|浇|jiāo|pour it over|verb
+237|交换|jiāohuàn|exchange|verb
+238|交往|jiāowǎng|affiliate with|verb
+239|角度|jiǎodù|angle|noun
+240|教材|jiàocái|teaching material|noun
+241|教训|jiàoxùn|lesson|noun
+242|接待|jiēdài|Reception|noun
+243|结实|jiēshi|strong|adjective
+244|节省|jiéshěng|save|verb
+245|结构|jiégòu|structure|noun
+246|结合|jiéhé|Combination|noun
+247|结论|jiélùn|conclusion|noun
+248|结账|jiézhàng|Checkout|verb
+249|届|jiè|Session|noun
+250|借口|jièkǒu|Excuse|noun
+251|戒|jiè|Quit|verb
+252|紧急|jǐnjí|urgent|adjective
+253|尽快|jǐnkuài|as soon as possible|adverb
+254|谨慎|jǐnshèn|cautious|adjective
+255|进步|jìnbù|progress|noun
+256|近代|jìndài|Modern|noun
+257|尽量|jìnliàng|as far as possible|adverb
+258|精神|jīngshén|spirit|noun
+259|经典|jīngdiǎn|classics; scriptures|noun
+260|救|jiù|save|verb
+261|舅舅|jiùjiu|uncle|noun
+262|桔子|júzi|Orange|noun
+263|具备|jùbèi|Have, possess|verb
+264|巨大|jùdà|huge|adjective
+265|决赛|juésài|Finals|noun
+266|绝对|juéduì|Absolutely|adverb
+267|军事|jūnshì|Military|noun
+268|开放|kāifàng|To open up|verb
+269|开水|kāishuǐ|Boiling water|noun
+270|砍|kǎn|cut|verb
+271|看不起|kànbuqǐ|Despise|verb
+272|可见|kějiàn|so; it`s thus clear|conjunction
+273|可怕|kěpà|dreadful|adjective
+274|克|kè|gram|noun
+275|客观|kèguān|objective|adjective
+276|控制|kòngzhì|control|verb
+277|口味|kǒuwèi|Flavor|noun
+278|夸|kuā|boast, praise|verb
+279|扩大|kuòdà|Expand|verb
+280|辣椒|làjiāo|Pepper, spice|noun
+281|烂|làn|rotten|adjective
+282|劳动|láodòng|labour|noun
+283|老板|lǎobǎn|Boss|noun
+284|老鼠|lǎoshǔ|Mouse|noun
+285|姥姥|lǎolao|Grandma|noun
+286|理论|lǐlùn|theory|noun
+287|理由|lǐyóu|Reason|noun
+288|立刻|lìkè|immediately|adverb
+289|力量|lìliàng|Power|noun
+290|利息|lìxī|accrual; interest|noun
+291|利用|lìyòng|utilize|verb
+292|连忙|liánmáng|Hurriedly|adverb
+293|联合|liánhé|union|noun
+294|了不起|liǎobuqǐ|Amazing|adjective
+295|列车|lièchē|train|noun
+296|临时|línshí|temporary|adjective
+297|灵活|línghuó|flexible|adjective
+298|领域|lǐngyù|field|noun
+299|流传|liúchuán|spread|verb
+300|浏览|liúlǎn|browse|verb
+301|龙|lóng|dragon|noun
+302|漏|lòu|leak|verb
+303|陆地|lùdì|land|noun
+304|录取|lùqǔ|matriculate|verb
+305|论文|lùnwén|paper|noun
+306|落后|luòhòu|backward, fall behind|verb
+307|骂|mà|scold|verb
+308|麦克风|màikèfēng|Microphone|noun
+309|满足|mǎnzú|satisfy|verb
+310|冒险|màoxiǎn|adventure|noun
+311|眉毛|méimao|eyebrow|noun
+312|美术|měishù|Fine Arts|noun
+313|秘密|mìmì|Secret|noun
+314|面对|miànduì|Face|verb
+315|面临|miànlín|face|verb
+316|苗条|miáotiao|slim|adjective
+317|明确|míngquè|To make clear|verb
+318|明显|míngxiǎn|obvious|adjective
+319|名牌|míngpái|famous brand|noun
+320|名胜古迹|míngshènggǔjì|Places of historic interest and scenic beauty|noun
+321|命令|mìnglìng|call; nominate|verb
+322|摸|mō|feel, touch|verb
+323|模糊|móhu|vague|adjective
+324|摩托车|mótuōchē|Motorcycle|noun
+325|某|mǒu|some|pronoun
+326|目标|mùbiāo|target|noun
+327|目录|mùlù|Catalog|noun
+328|木头|mùtou|wood|noun
+329|哪怕|nǎpà|even if|conjunction
+330|难免|nánmiǎn|Unavoidable|adjective
+331|脑袋|nǎodai|head|noun
+332|内科|nèikē|Internal medicine|noun
+333|嫩|nèn|tender, delicate|adjective
+334|能干|nénggàn|capable|adjective
+335|能源|néngyuán|energy|noun
+336|年代|niándài|years|noun
+337|年纪|niánjì|Age|noun
+338|宁可|nìngkě|would rather|adverb
+339|牛仔裤|niúzǎikù|Jeans|noun
+340|农村|nóngcūn|countryside|noun
+341|农业|nóngyè|Agriculture|noun
+342|女士|nǚshì|Madam|noun
+343|派|pài|send|verb
+344|赔偿|péicháng|compensate for|verb
+345|培养|péiyǎng|culture, foster|verb
+346|配合|pèihé|Coordination|noun
+347|披|pī|drape over one`s shoulders|verb
+348|片面|piànmiàn|one-sided|adjective
+349|拼音|pīnyīn|pinyin|noun
+350|平|píng|flat|adjective
+351|平常|píngcháng|Usual|adjective
+352|平方|píngfāng|square|noun
+353|平静|píngjìng|calm|adjective
+354|评价|píngjià|evaluate|verb
+355|破坏|pòhuài|Destruction|noun
+356|期待|qīdài|expect|verb
+357|奇迹|qíjì|Miracle|noun
+358|启发|qǐfā|Inspire|verb
+359|气氛|qìfēn|atmosphere|noun
+360|汽油|qìyóu|gasoline|noun
+361|谦虚|qiānxū|Modest|adjective
+362|签|qiān|Sign|verb
+363|浅|qiǎn|shallow|adjective
+364|枪|qiāng|gun|noun
+365|强调|qiángdiào|Emphasize|verb
+366|抢|qiǎng|rob|verb
+367|悄悄|qiāoqiāo|quietly|adverb
+368|瞧|qiáo|look|verb
+369|巧妙|qiǎomiào|clever|adjective
+370|亲爱|qīn’ài|Dear|adjective
+371|亲切|qīnqiè|kind|adjective
+372|勤奋|qínfèn|hardworking|adjective
+373|青春|qīngchūn|Youth|noun
+374|轻视|qīngshì|Despise|verb
+375|请求|qǐngqiú|request|verb
+376|球迷|qiúmí|fans|noun
+377|趋势|qūshì|trend|noun
+378|去世|qùshì|pass away|verb
+379|权力|quánlì|power|noun
+380|劝|quàn|persuade|verb
+381|缺乏|quēfá|Lack|verb
+382|确认|quèrèn|confirm|verb
+383|群|qún|group|noun
+384|燃烧|ránshāo|burning|verb
+385|绕|rào|Around|verb
+386|热爱|rè’ài|Ardently love|verb
+387|热心|rèxīn|enthusiastic|adjective
+388|人才|réncái|talented people|noun
+389|人类|rénlèi|Human beings|noun
+390|人生|rénshēng|Life|noun
+391|人物|rénwù|character|noun
+392|忍不住|rěnbuzhù|Unable to bear|verb
+393|日程|rìchéng|schedule|noun
+394|日历|rìlì|calendar|noun
+395|日用品|rìyòngpǐn|Daily Necessities|noun
+396|如何|rúhé|How|adverb
+397|软件|ruǎnjiàn|Software|noun
+398|洒|sǎ|sprinkle|verb
+399|嗓子|sǎngzi|throat|noun
+400|沙滩|shātān|beach|noun
+401|晒|shài|The sun|noun
+402|闪电|shǎndiàn|lightning|noun
+403|善于|shànyú|be good at|verb
+404|商品|shāngpǐn|commodity|noun
+405|商务|shāngwù|business|noun
+406|伤害|shānghài|hurt|verb
+407|舍不得|shěbude|Hate to part with or use|verb
+408|设计|shèjì|Design|noun
+409|摄影|shèyǐng|Photography|noun
+410|伸|shēn|stretch|verb
+411|深刻|shēnkè|profound|adjective
+412|身份|shēnfèn|identity|noun
+413|神秘|shénmì|mysterious|adjective
+414|生动|shēngdòng|vivid|adjective
+415|生长|shēngzhǎng|grow|verb
+416|诗|shī|poetry|noun
+417|失眠|shīmián|insomnia|noun
+418|狮子|shīzi|Lion|noun
+419|时代|shídài|times, epoch|noun
+420|时髦|shímáo|Fashionable|adjective
+421|时尚|shíshàng|fashion|noun
+422|实习|shíxí|Internship|noun
+423|实验|shíyàn|Experiment|noun
+424|石头|shítou|stone|noun
+425|使劲儿|shǐjìnr|exert all one’s strength|verb
+426|始终|shǐzhōng|Throughout|adverb
+427|试卷|shìjuàn|test paper|noun
+428|市场|shìchǎng|market|noun
+429|事物|shìwù|Thing|noun
+430|收据|shōujù|receipt|noun
+431|手工|shǒugōng|manual|noun
+432|手术|shǒushù|Operation|noun
+433|手续|shǒuxù|procedures|noun
+434|首|shǒu|head, chief|noun
+435|受伤|shòushāng|Injured|adjective
+436|寿命|shòumìng|Life|noun
+437|书架|shūjià|bookshelf|noun
+438|输入|shūrù|import; input|verb
+439|熟练|shúliàn|skilled|adjective
+440|鼠标|shǔbiāo|mouse|noun
+441|数据|shùjù|data|noun
+442|数码|shùmǎ|Digital|adjective
+443|摔倒|shuāidǎo|fall|verb
+444|双方|shuāngfāng|both sides|noun
+445|税|shuì|tax|noun
+446|说服|shuōfú|Persuade|verb
+447|丝绸|sīchóu|silk|noun
+448|思想|sīxiǎng|thought|noun
+449|似乎|sìhū|It seems that|adverb
+450|随身|suíshēn|Carry on|verb
+451|碎|suì|broken|adjective
+452|损失|sǔnshī|loss|noun
+453|锁|suǒ|lock|noun
+454|台阶|táijiē|Steps|noun
+455|太极拳|tàijíquán|Taiji boxing|noun
+456|逃|táo|flee|verb
+457|淘气|táoqì|naughty|adjective
+458|讨价还价|tǎojiàhuánjià|bargain|verb
+459|套|tào|set|noun
+460|特色|tèsè|characteristic|noun
+461|提倡|tíchàng|promote|verb
+462|题目|tímù|subject|noun
+463|体贴|tǐtiē|Considerate|adjective
+464|体验|tǐyàn|experience|verb
+465|天空|tiānkōng|sky|noun
+466|天真|tiānzhēn|naive|adjective
+467|调整|tiáozhěng|adjustment|noun
+468|通常|tōngcháng|usually|adverb
+469|统一|tǒngyī|Unified|adjective
+470|痛快|tòngkuài|Happy, to one's great satisfaction|adjective
+471|偷|tōu|steal|verb
+472|投资|tóuzī|Investment|noun
+473|突出|tūchū|prominent|adjective
+474|土豆|tǔdòu|Potato|noun
+475|兔子|tùzi|Rabbit|noun
+476|推辞|tuīcí|Refuse|verb
+477|推荐|tuījiàn|Recommend|verb
+478|退|tuì|retreat|verb
+479|退休|tuìxiū|retire|verb
+480|外公|wàigōng|grandpa (mother’s side)|noun
+481|完整|wánzhěng|complete|adjective
+482|玩具|wánjù|Toys|noun
+483|万一|wànyī|In case|conjunction
+484|威胁|wēixié|threaten|verb
+485|维修|wéixiū|Repair|verb
+486|围绕|wéirào|around|verb
+487|尾巴|wěiba|tail|noun
+488|委屈|wěiqu|suffer from injustice|verb
+489|胃|wèi|stomach|noun
+490|位于|wèiyú|Be located|verb
+491|未必|wèibì|not necessarily|adverb
+492|温柔|wēnróu|Tender|adjective
+493|文具|wénjù|Stationery|noun
+494|文学|wénxué|literature|noun
+495|稳定|wěndìng|Stable|adjective
+496|问候|wènhòu|To greet|verb
+497|卧室|wòshì|Bedroom|noun
+498|无数|wúshù|Countless|adjective
+499|勿|wù|Not|adverb
+500|物质|wùzhì|material|noun
+501|吸取|xīqǔ|Draw|verb
+502|系统|xìtǒng|system|noun
+503|戏剧|xìjù|drama|noun
+504|吓|xià|scare|verb
+505|夏令营|xiàlìngyíng|Summer camp|noun
+506|下载|xiàzài|download|verb
+507|显然|xiǎnrán|Obviously|adverb
+508|县|xiàn|county|noun
+509|现象|xiànxiàng|phenomenon|noun
+510|香肠|xiāngcháng|sausage|noun
+511|相当|xiāngdāng|Quite|adverb
+512|相似|xiāngsì|Be similar|verb
+513|想念|xiǎngniàn|miss|verb
+514|享受|xiǎngshòu|enjoy|verb
+515|项链|xiàngliàn|Necklace|noun
+516|象征|xiàngzhēng|Symbolize|verb
+517|消极|xiāojí|negative|adjective
+518|消失|xiāoshī|disappear|verb
+519|小气|xiǎoqi|Mean|adjective
+520|孝顺|xiàoshun|Filial piety|noun
+521|斜|xié|oblique|adjective
+522|写作|xiězuò|writing|noun
+523|心理|xīnlǐ|Psychology|noun
+524|心脏|xīnzàng|heart|noun
+525|信任|xìnrèn|trust|verb
+526|行为|xíngwéi|behavior|noun
+527|形容|xíngróng|describe|verb
+528|形势|xíngshì|situation|noun
+529|形状|xíngzhuàng|shape|noun
+530|幸运|xìngyùn|lucky|adjective
+531|兄弟|xiōngdì|Brother|noun
+532|虚心|xūxīn|With an open mind, modest|adjective
+533|宣布|xuānbù|Announce|verb
+534|学术|xuéshù|learning|noun
+535|询问|xúnwèn|inquiry|noun
+536|训练|xùnliàn|training|noun
+537|押金|yājīn|deposit|noun
+538|牙齿|yáchǐ|tooth|noun
+539|宴会|yànhuì|banquet|noun
+540|痒|yǎng|itch|noun
+541|样式|yàngshì|style|noun
+542|腰|yāo|waist|noun
+543|咬|yǎo|bite|verb
+544|夜|yè|night|noun
+545|业余|yèyú|amateur|noun
+546|依然|yīrán|still|adverb
+547|一旦|yídàn|once; in case|conjunction
+548|一致|yízhì|Agreement|noun
+549|一再|yízài|repeatedly|adverb
+550|移民|yímín|immigrant|noun
+551|疑问|yíwèn|Doubt|noun
+552|以来|yǐlái|Since|preposition
+553|意外|yìwài|Accident|noun
+554|议论|yìlùn|Discussion|noun
+555|义务|yìwù|obligation|noun
+556|因素|yīnsù|Factor|noun
+557|英俊|yīngjùn|Handsome and spirited|adjective
+558|营养|yíngyǎng|Nutrition|noun
+559|硬|yìng|hard|adjective
+560|应付|yìngfu|cope with|verb
+561|应用|yìngyòng|application|noun
+562|拥挤|yōngjǐ|Crowded|adjective
+563|勇气|yǒngqì|courage|noun
+564|用功|yònggōng|Diligent|adjective
+565|优惠|yōuhuì|preferential; favorable|adjective
+566|优势|yōushì|advantage|noun
+567|悠久|yōujiǔ|long|adjective
+568|油炸|yóuzhá|Fried|adjective
+569|有利|yǒulì|favourable, beneficial|adjective
+570|娱乐|yúlè|entertainment|noun
+571|预报|yùbào|prediction|noun
+572|预防|yùfáng|Prevention|noun
+573|圆|yuán|circular|adjective
+574|元旦|uándàn|New year’s Day|noun
+575|员工|yuángōng|employee|noun
+576|愿望|yuànwàng|desire, wish|noun
+577|晕|yūn|faint|verb
+578|运气|yùnqi|luck|noun
+579|运用|yùnyòng|Application|noun
+580|灾害|zāihài|disaster|noun
+581|在乎|zàihu|care about|verb
+582|再三|zàisān|repeatedly|adverb
+583|赞成|zànchéng|Agreement|noun
+584|糟糕|zāogāo|Too bad|adjective
+585|造成|zàochéng|cause|verb
+586|责备|zébèi|Reproach|verb
+587|窄|zhǎi|narrow|adjective
+588|展开|zhǎnkāi|Open|verb
+589|掌握|zhǎngwò|master|verb
+590|账户|zhànghù|account|noun
+591|珍惜|zhēnxī|cherish|verb
+592|阵|zhèn|front|noun
+593|睁|zhēng|open (eyes)|verb
+594|争取|zhēngqǔ|strive for|verb
+595|整个|zhěnggè|Whole|adjective
+596|整齐|zhěngqí|neat|adjective
+597|正|zhèng|just|adverb
+598|政府|zhèngfǔ|government|noun
+599|证件|zhèngjiàn|Certificates|noun
+600|支|zhī|branch (measure word)|measure word
+601|支票|zhīpiào|Check|noun
+602|指导|zhǐdǎo|guidance|noun
+603|制定|zhìdìng|Formulate|verb
+604|制造|zhìzào|Manufacture|verb
+605|智慧|zhìhuì|wisdom|noun
+606|秩序|zhìxù|order|noun
+607|中介|zhōngjiè|intermediary|noun
+608|中旬|zhōngxún|Mid|noun
+609|周到|zhōudào|thoughtful|adjective
+610|逐步|zhúbù|gradually|adverb
+611|竹子|zhúzi|Bamboo|noun
+612|主持|zhǔchí|Host|noun
+613|主观|zhǔguān|subjective|adjective
+614|主题|zhǔtí|theme|noun
+615|主任|zhǔrèn|Headmaster|noun
+616|抓|zhuā|grab|verb
+617|专家|zhuānjiā|expert|noun
+618|专心|zhuānxīn|Attentively|adverb
+619|转告|zhuǎngào|Tell, transmit|verb
+620|装|zhuāng|pretend|verb
+621|装修|zhuāngxiū|decorate house|verb
+622|状况|zhuàngkuàng|status|noun
+623|追|zhuī|run after|verb
+624|资格|zīgé|Qualifications|noun
+625|资料|zīliào|data|noun
+626|姿势|zīshì|posture|noun
+627|紫|zǐ|purple|adjective
+628|字幕|zìmù|Subtitle|noun
+629|自动|zìdòng|automatic|adjective
+630|自由|zìyóu|free|adjective
+631|综合|zōnghé|comprehensive|adjective
+632|总共|zǒnggòng|In total|adverb
+633|总理|zǒnglǐ|prime minister|noun
+634|总算|zǒngsuàn|finally|adverb
+635|总之|zǒngzhī|in short, in brief|adverb
+636|组成|zǔchéng|Form|verb
+637|组织|zǔzhī|organization|noun
+638|作文|zuòwén|composition|noun
+639|哎|āi|Oh|interjection
+640|爱护|àihù|Care|verb
+641|爱惜|àixī|Cherish|verb
+642|安装|ānzhuāng|install|verb
+643|暗|àn|dark|adjective
+644|把握|bǎwò|grasp|verb
+645|摆|bǎi|pendulum|noun
+646|办理|bànlǐ|handle|verb
+647|傍晚|bàngwǎn|Evening|noun
+648|包裹|bāoguǒ|package|noun
+649|包括|bāokuò|Include|verb
+650|薄|báo|thin|adjective
+651|宝贝|bǎobèi|baby|noun
+652|保持|bǎochí|keep|verb
+653|保险|bǎoxiǎn|Insurance|noun
+654|抱怨|bàoyuàn|Complain|verb
+655|报道|bàodào|report|verb
+656|报社|bàoshè|Newspaper office|noun
+657|背|bèi|Back|noun
+658|本质|běnzhì|essence|noun
+659|彼此|bǐcǐ|each other|pronoun
+660|毕竟|bìjìng|after all|adverb
+661|避免|bìmiǎn|avoid|verb
+662|编辑|biānjí|edit|verb
+663|便|biàn|then, in that case|adverb
+664|标点|biāodiǎn|punctuation|noun
+665|表明|biǎomíng|Indicate|verb
+666|病毒|bìngdú|virus|noun
+667|播放|bōfàng|play|verb
+668|脖子|bózi|neck|noun
+669|不要紧|búyàojǐn|Never mind|phrase
+670|布|bù|cloth, textile|noun
+671|不安|bù’ān|Uneasy, unstable|adjective
+672|不得了|bùdéliǎo|Very|adverb
+673|不如|bùrú|not as good as|phrase
+674|步骤|bùzhòu|step|noun
+675|采访|cǎifǎng|interview|verb
+676|彩虹|cǎihóng|Rainbow|noun
+677|参与|cānyù|participate in|verb
+678|惭愧|cánkuì|Be ashamed|adjective
+679|操心|cāoxīn|Worry|verb
+680|册|cè|volume, book|noun
+681|测验|cèyàn|test|noun
+682|曾经|céngjīng|once|adverb
+683|差距|chājù|disparity; distance|noun
+684|产品|chǎnpǐn|product|noun
+685|长途|chángtú|Long-distance|adjective
+686|抄|chāo|copy|verb
+687|超级|chāojí|super|adjective
+688|朝|cháo|towards|preposition
+689|炒|chǎo|fry|verb
+690|吵架|chǎojià|quarrel|verb
+691|车厢|chēxiāng|carriage|noun
+692|沉默|chénmò|silent|adjective
+693|称呼|chēnghu|to address|verb
+694|承认|chéngrèn|Admit|verb
+695|程度|chéngdù|degree|noun
+696|成分|chéngfèn|component|noun
+697|成果|chéngguǒ|Achievements|noun
+698|成就|chéngjiù|achievement|noun
+699|成熟|chéngshú|mature|adjective
+700|成长|chéngzhǎng|Grow up|verb
+701|吃亏|chīkuī|Suffer|verb
+702|迟早|chízǎo|sooner or later|adverb
+703|池塘|chítáng|Pond|noun
+704|翅膀|chìbǎng|Wing|noun
+705|充电器|chōngdiànqì|Charger|noun
+706|充满|chōngmǎn|full of|verb
+707|抽屉|chōuti|drawer|noun
+708|臭|chòu|smelly|adjective
+709|出版|chūbǎn|publish|verb
+710|出色|chūsè|excellent; outstanding|adjective
+711|初级|chūjí|primary|adjective
+712|传播|chuánbō|spread|verb
+713|传说|chuánshuō|Legend|noun
+714|窗帘|chuānglián|Window curtains|noun
+715|创造|chuàngzào|create|verb
+716|词汇|cíhuì|vocabulary|noun
+717|辞职|cízhí|Resignation|noun
+718|刺激|cìjī|stimulate|verb
+719|从此|cóngcǐ|from then on|adverb
+720|从事|cóngshì|Be engaged in|verb
+721|促进|cùjìn|Promote|verb
+722|催|cuī|Reminder, urge|verb
+723|存在|cúnzài|existence|noun
+724|答应|dāying|promise|verb
+725|达到|dádào|Achieve|verb
+726|打交道|dǎjiāodao|Dealing with|verb
+727|打喷嚏|dǎpēntì|Sneeze|verb
+728|打听|dǎting|Inquire|verb
+729|大方|dàfang|generous|adjective
+730|大型|dàxíng|large|adjective
+731|呆|dāi|stay|verb
+732|代替|dàitì|replace|verb
+733|贷款|dàikuǎn|extend credit to; provide a loan|verb
+734|单纯|dānchún|Simple|adjective
+735|单独|dāndú|Alone|adjective
+736|单元|dānyuán|unit|noun
+737|胆小鬼|dǎnxiǎoguǐ|Coward|noun
+738|当地|dāngdì|Local|noun
+739|当心|dāngxīn|Watch out|verb
+740|挡|dǎng|block|verb
+741|岛屿|dǎoyǔ|Islands|noun
+742|导演|dǎoyǎn|director|noun
+743|导致|dǎozhì|cause|verb
+744|到达|dàodá|Arrive|verb
+745|道德|dàodé|Morality|noun
+746|等待|děngdài|wait for|verb
+747|的确|díquè|indeed; be certain to|adverb
+748|地道|dìdao|tunnel|noun
+749|地理|dìlǐ|Geography|noun
+750|地区|dìqū|region|noun
+751|地位|dìwèi|status|noun
+752|点心|diǎnxin|snack|noun
+753|电台|diàntái|radio station|noun
+754|钓|diào|Fishing|verb
+755|洞|dòng|hole|noun
+756|豆腐|dòufu|Bean curd|noun
+757|独立|dúlì|Independent|adjective
+758|断|duàn|break|verb
+759|堆|duī|heap|noun
+760|对方|duìfāng|the other party|noun
+761|对象|duìxiàng|object|noun
+762|兑换|duìhuàn|exchange|verb
+763|蹲|dūn|squat|verb
+764|多余|duōyú|surplus|adjective
+765|躲藏|duǒcáng|Hide oneself|verb
+766|恶劣|èliè|Adverse|adjective
+767|耳环|ěrhuán|Earrings|noun
+768|发愁|fāchóu|To be worried|verb
+769|发抖|fādǒu|Tremble|verb
+770|发明|fāmíng|Invention|noun
+771|翻|fān|Turn|verb
+772|反复|fǎnfù|Repeatedly|adverb
+773|反映|fǎnyìng|reflect|verb
+774|方|fāng|square|noun
+775|仿佛|fǎngfú|as if|adverb
+776|非|fēi|wrong; non|adjective
+777|废话|fèihuà|Crap|noun
+778|分别|fēnbié|part|verb
+779|分配|fēnpèi|distribution|noun
+780|分析|fēnxī|Analysis|noun
+781|纷纷|fēnfēn|one after another|adverb
+782|奋斗|fèndòu|Struggle|verb
+783|风格|fēnggé|style|noun
+784|风俗|fēngsú|Customs|noun
+785|疯狂|fēngkuáng|Insane|adjective
+786|否定|fǒudìng|negative|adjective
+787|幅|fú|classifier of picture|measure word
+788|服装|fúzhuāng|costume; dress|noun
+789|辅导|fǔdǎo|Coach|verb
+790|妇女|fùnǚ|Woman|noun
+791|改革|gǎigé|reform|verb
+792|改善|gǎishàn|Improve|verb
+793|盖|gài|cover|verb
+794|概念|gàiniàn|concept|noun
+795|干脆|gāncuì|simply|adverb
+796|干燥|gānzào|Dry|adjective
+797|感激|gǎnjī|Appreciate|verb
+798|感受|gǎnshòu|feel|verb
+799|赶紧|gǎnjǐn|Quickly|adverb
+800|钢铁|gāngtiě|steel|noun
+801|高档|gāodàng|High-grade
+802|搞|gǎo|get
+803|格外|géwài|especially
+804|个别|gèbié|individual
+805|个性|gèxìng|personality
+806|根|gēn|root
+807|公布|gōngbù|Publish
+808|公元|gōngyuán|A.D.
+809|公主|gōngzhǔ|princess
+810|工程师|gōngchéngshī|Engineer
+811|工人|gōngrén|Worker
+812|恭喜|gōngxǐ|congratulations
+813|贡献|gòngxiàn|contribution
+814|构成|gòuchéng|constitute
+815|姑姑|gūgu|aunt
+816|古典|gǔdiǎn|classical
+817|鼓舞|gǔwǔ|Inspire
+818|股票|gǔpiào|shares; stock
+819|固定|gùdìng|fixed
+820|挂号|guàhào|Register
+821|拐弯|guǎiwān|Turn
+822|官|guān|officer
+823|关闭|guānbì|close; shut
+824|观点|guāndiǎn|viewpoint
+825|管子|guǎnzi|pipe
+826|光临|guānglín|presence
+827|光盘|guāngpán|CD
+828|广场|guǎngchǎng|square
+829|广泛|guǎngfàn|widely
+830|规矩|guīju|Rules
+831|规模|guīmó|scale
+832|归纳|guīnà|Induce
+833|柜台|guìtái|Counter
+834|锅|guō|pot
+835|国王|guówáng|king
+836|果然|guǒrán|Sure enough
+837|过分|guòfèn|excessive
+838|过期|guòqī|Be overdue
+839|哈|hā|ah
+840|海关|hǎiguān|Customs
+841|喊|hǎn|shout
+842|行业|hángyè|industry
+843|好客|hàokè|Hospitable
+844|和平|hépíng|peace
+845|何况|hékuàng|Not to mention
+846|合影|héyǐng|Group photo
+847|核心|héxīn|core
+848|后果|hòuguǒ|Consequence
+849|忽然|hūrán|suddenly
+850|呼吸|hūxī|breathing
+851|蝴蝶|húdié|Butterfly
+852|胡同|hútòng|Hutong
+853|华裔|huáyì|Chinese born
+854|滑|huá|slippery
+855|化学|huàxué|Chemistry
+856|缓解|huǎnjiě|relieve
+857|幻想|huànxiǎng|fantasy
+858|挥|huī|Essential
+859|灰尘|huīchén|dust
+860|恢复|huīfù|recovery
+861|汇率|huìlǜ|exchange rate
+862|婚姻|hūnyīn|Marriage
+863|火柴|huǒchái|Match
+864|激烈|jīliè|fierce
+865|肌肉|jīròu|muscle
+866|极其|jíqí|extremely
+867|集体|jítǐ|collective
+868|急忙|jímáng|Hastily
+869|记录|jìlù|Record
+870|计算|jìsuàn|Calculation
+871|系领带|jìlǐngdài|wear a tie
+872|纪律|jìlǜ|discipline
+873|寂寞|jìmò|lonely
+874|家庭|jiātíng|Family
+875|家乡|jiāxiāng|Hometown
+876|夹子|jiāzi|Clip
+877|假设|jiǎshè|in case of
+878|嫁|jià|get married to
+879|价值|jiàzhí|value
+880|肩膀|jiānbǎng|shoulder
+881|坚决|jiānjué|firm, determined
+882|艰巨|jiānjù|arduous
+883|兼职|jiānzhí|Part-time job
+884|简历|jiǎnlì|resume
+885|剪刀|jiǎndāo|scissors
+886|建立|jiànlì|establish
+887|讲究|jiǎngjiu|Pay attention to; daintily
+888|交际|jiāojì|communication
+889|胶水|jiāoshuǐ|glue
+890|狡猾|jiǎohuá|cunning
+891|教练|jiàoliàn|coach
+892|接触|jiēchù|Contact
+893|接近|jiējìn|near
+894|阶段|jiēduàn|stage
+895|戒指|jièzhi|Ring
+896|金属|jīnshǔ|Metal
+897|进口|jìnkǒu|Imported
+898|尽力|jìnlì|Try the best
+899|精力|jīnglì|energy
+900|经商|jīngshāng|be in business; trade
+901|经营|jīngyíng|Management
+902|酒吧|jiǔbā|Bar
+903|救护车|jiùhùchē|Ambulance
+904|居然|jūrán|actually
+905|具体|jùtǐ|specific
+906|俱乐部|jùlèbù|Club
+907|据说|jùshuō|allegedly; it`s said
+908|捐|juān|Donate
+909|决心|juéxīn|Determination
+910|角色|juésè|role
+911|均匀|jūnyún|uniformity
+912|卡车|kǎchē|Truck
+913|开发|kāifā|Development
+914|开幕式|kāimùshì|The opening ceremony
+915|看望|kànwàng|visit
+916|靠|kào|lean
+917|颗|kē|pellet (measure word)
+918|可靠|kěkào|reliable
+919|课程|kèchéng|curriculum
+920|克服|kèfú|Overcome
+921|刻苦|kèkǔ|Hardworking
+922|空间|kōngjiān|space
+923|空闲|kòngxián|free
+924|夸张|kuāzhāng|exagerate
+925|会计|kuàijì|accountant
+926|宽|kuān|wide
+927|昆虫|kūnchóng|insect
+928|拦|lán|Stop
+929|朗读|lǎngdú|Reading aloud
+930|劳驾|láojià|Excuse me
+931|老百姓|lǎobǎixìng|Ordinary people
+932|老实|lǎoshi|honest
+933|老婆|lǎopó|wife
+934|乐观|lèguān|optimistic
+935|雷|léi|Thunder
+936|类型|lèixíng|type
+937|冷淡|lěngdàn|cool attitude
+938|梨|lí|pear
+939|离婚|líhūn|divorce
+940|厘米|límǐ|centimeter
+941|立即|lìjí|immediately
+942|利润|lìrùn|profit
+943|利益|lìyì|interest
+944|连续|liánxù|serial
+945|恋爱|liàn’ài|Love, in love
+946|良好|liánghǎo|good
+947|粮食|liángshi|foodstuff
+948|亮|liàng|bright
+949|铃|líng|bell
+950|零件|língjiàn|Spare parts
+951|零食|língshí|snacks
+952|领导|lǐngdǎo|Leader
+953|流泪|liúlèi|Shed tears
+954|陆续|lùxù|One after another
+955|录音|lùyīn|Sound recording
+956|轮流|lúnliú|take turns
+957|逻辑|luóji|logic
+958|馒头|mántou|Steamed buns
+959|毛病|máobìng|Trouble
+960|矛盾|máodùn|contradiction
+961|贸易|màoyì|Trade
+962|媒体|méitǐ|media
+963|煤炭|méitàn|coal
+964|魅力|mèilì|charm
+965|梦想|mèngxiǎng|Dream
+966|蜜蜂|mìfēng|honeybee
+967|密切|mìqiè|close
+968|秘书|mìshū|secretary
+969|面积|miànjī|The measure of area
+970|描写|miáoxiě|describe
+971|敏感|mǐngǎn|Sensitive
+972|明星|míngxīng|Star
+973|名片|míngpiàn|business card
+974|命运|mìngyùn|fate, destiny
+975|模仿|mófǎng|imitate
+976|模特|mótè|model
+977|陌生|mòshēng|strange
+978|目前|mùqián|at present
+979|难怪|nánguài|no wonder
+980|内部|nèibù|interior
+981|嗯|en|Well
+982|念|niàn|Read
+983|浓|nóng|strong
+984|农民|nóngmín|farmer
+985|欧洲|Ōuzhōu|Europe
+986|偶然|ǒurán|accidental
+987|拍|pāi|beat
+988|盼望|pànwàng|look forward to
+989|培训|péixùn|Train
+990|佩服|pèifu|Admire
+991|盆|pén|basin, pot
+992|碰|pèng|touch, meet
+993|批|pī|batch
+994|批准|pīzhǔn|Approval
+995|疲劳|píláo|fatigue
+996|匹|pǐ|Horse (meaure word)
+997|片|piàn|slice
+998|飘|piāo|Gone with the wind
+999|频道|píndào|channel
+1000|凭|píng|By
+1001|平安|píng’ān|sound and safe
+1002|平等|píngděng|equality
+1003|平衡|pínghéng|balance
+1004|平均|píngjūn|Average
+1005|破产|pòchǎn|bankruptcy
+1006|迫切|pòqiè|urgent
+1007|期间|qījiān|Period
+1008|其余|qíyú|Rest
+1009|企业|qǐyè|enterprise
+1010|前途|qiántú|future
+1011|欠|qiàn|owe
+1012|墙|qiáng|wall
+1013|强烈|qiángliè|strong
+1014|切|qiē|cut
+1015|亲自|qīnzì|personally
+1016|青|qīng|young
+1017|青少年|qīngshàonián|Teenagers
+1018|轻易|qīngyì|easily
+1019|清淡|qīngdàn|light
+1020|情景|qíngjǐng|scene
+1021|情绪|qíngxù|emotion
+1022|庆祝|qìngzhù|Celebrate
+1023|娶|qǔ|marry
+1024|取消|qǔxiāo|cancel
+1025|圈|quān|circle
+1026|全面|quánmiàn|comprehensive
+1027|权利|quánlì|right, interest
+1028|确定|quèdìng|Determine
+1029|热烈|rèliè|warm
+1030|人口|rénkǒu|population
+1031|人民币|rénmínbì|RMB
+1032|人事|rénshì|Personnel matters
+1033|人员|rényuán|personnel
+1034|日常|rìcháng|daily
+1035|日期|rìqī|Date
+1036|日子|rìzi|life, days
+1037|如今|rújīn|nowadays
+1038|软|ruǎn|soft
+1039|弱|ruò|weak
+1040|色彩|sècǎi|color
+1041|杀|shā|kill
+1042|沙漠|shāmò|Desert
+1043|傻|shǎ|silly
+1044|删除|shānchú|delete
+1045|善良|shànliáng|kind; virtuous
+1046|扇子|shànzi|Fan
+1047|商业|shāngyè|business
+1048|上当|shàngdàng|When
+1049|蛇|shé|snake
+1050|设备|shèbèi|equipment
+1051|设施|shèshī|facilities
+1052|射击|shèjī|Shooting
+1053|身材|shēncái|figure
+1054|神话|shénhuà|Myth
+1055|升|shēng|rise
+1056|生产|shēngchǎn|production
+1057|声调|shēngdiào|Tone
+1058|绳子|shéngzi|Rope
+1059|省略|shěnglüè|ellipsis
+1060|胜利|shènglì|victory
+1061|失去|shīqù|Lose
+1062|失业|shīyè|Unemployment
+1063|湿润|shīrùn|Moist
+1064|时差|shíchā|time difference
+1065|时刻|shíkè|time
+1066|时期|shíqī|period
+1067|实话|shíhuà|The truth
+1068|实践|shíjiàn|practice
+1069|实现|shíxiàn|Realization
+1070|实用|shíyòng|Practical
+1071|食物|shíwù|food
+1072|士兵|shìbīng|soldiers
+1073|似的|shìde|Likely
+1074|事实|shìshí|Fact
+1075|事先|shìxiān|Prior
+1076|收获|shōuhuò|Harvest
+1077|手套|shǒutào|glove
+1078|手指|shǒuzhǐ|finger
+1079|蔬菜|shūcài|Vegetables
+1080|舒适|shūshì|Comfortable
+1081|梳子|shūzi|comb
+1082|属于|shǔyú|belong to
+1083|数|shǔ|to count
+1084|甩|shuǎi|Rejection
+1085|说不定|shuōbudìng|maybe
+1086|撕|sī|tear
+1087|丝毫|sīháo|A bit
+1088|思考|sīkǎo|Reflection
+1089|私人|sīrén|private
+1090|搜索|sōusuǒ|search
+1091|宿舍|sùshè|dormitory
+1092|随时|suíshí|at any time
+1093|随手|suíshǒu|Readily
+1094|缩短|suōduǎn|Shorten
+1095|所|suǒ|place
+1096|太太|tàitai|Ma’am
+1097|谈判|tánpàn|negotiation
+1098|坦率|tǎnshuài|frank
+1099|烫|tàng|Hot
+1100|桃|táo|peach
+1101|逃避|táobì|escape
+1102|特殊|tèshū|special
+1103|特征|tèzhēng|Features
+1104|疼爱|téng’ài|Love dearly
+1105|提纲|tígāng|outline
+1106|提问|tíwèn|Put questions to
+1107|体会|tǐhuì|Experience
+1108|体现|tǐxiàn|Reflect
+1109|调皮|tiáopí|naughty
+1110|挑战|tiǎozhàn|challenge
+1111|痛苦|tòngkǔ|Pain
+1112|投入|tóurù|put into
+1113|透明|tòumíng|transparent
+1114|土地|tǔdì|land
+1115|吐|tù|spit
+1116|团|tuán|group
+1117|推广|tuīguǎng|Extension
+1118|退步|tuìbù|Backward
+1119|歪|wāi|Crooked
+1120|外交|wàijiāo|International Relations
+1121|完美|wánměi|perfect
+1122|完善|wánshàn|perfect
+1123|王子|wángzǐ|prince
+1124|往返|wǎngfǎn|Return
+1125|网络|wǎngluò|network
+1126|危害|wēihài|Harm
+1127|微笑|wēixiào|Smile
+1128|违反|wéifǎn|Violation
+1129|围巾|wéijīn|scarf
+1130|唯一|wéiyī|Only
+1131|伟大|wěidà|great
+1132|胃口|wèikǒu|Appetite
+1133|位置|wèizhì|position
+1134|未来|wèilái|Future
+1135|温暖|wēnnuǎn|warm
+1136|闻|wén|smell
+1137|文件|wénjiàn|file
+1138|文明|wénmíng|civilization
+1139|文字|wénzì|writing, character
+1140|吻|wěn|kiss
+1141|握手|wòshǒu|Handshake
+1142|屋子|wūzi|House
+1143|无奈|wúnài|have no choice
+1144|无所谓|wúsuǒwèi|cannot be designated as
+1145|武术|wǔshù|A martial art
+1146|雾|wù|Fog
+1147|物理|wùlǐ|Physics
+1148|吸收|xīshōu|absorb
+1149|系|xì|department
+1150|细节|xìjié|details
+1151|瞎|xiā|blind
+1152|鲜艳|xiānyàn|Colorful
+1153|显得|xiǎnde|Appear, seem
+1154|显示|xiǎnshì|display
+1155|现代|xiàndài|modern
+1156|现实|xiànshí|reality
+1157|限制|xiànzhì|limit
+1158|相处|xiāngchǔ|Get along with
+1159|相对|xiāngduì|Relative
+1160|相关|xiāngguān|correlate
+1161|想象|xiǎngxiàng|imagine
+1162|项|xiàng|term
+1163|项目|xiàngmù|project
+1164|象棋|xiàngqí|Xiangqi
+1165|消费|xiāofèi|consumption
+1166|消化|xiāohuà|Digestion
+1167|销售|xiāoshòu|Sale
+1168|小麦|xiǎomài|Wheat
+1169|效率|xiàolǜ|efficiency
+1170|歇|xiē|Rest
+1171|欣赏|xīnshǎng|Appreciate
+1172|信号|xìnhào|signal
+1173|行动|xíngdòng|Get some action
+1174|行人|xíngrén|pedestrian
+1175|形成|xíngchéng|formation
+1176|形式|xíngshì|form
+1177|形象|xíngxiàng|image
+1178|性质|xìngzhì|Nature
+1179|幸亏|xìngkuī|Thanks
+1180|胸|xiōng|chest
+1181|修改|xiūgǎi|modify
+1182|休闲|xiūxián|Leisure time
+1183|叙述|xùshù|Narration
+1184|宣传|xuānchuán|Propaganda
+1185|学历|xuélì|education degree
+1186|学问|xuéwen|knowledge
+1187|血|xuè|blood
+1188|寻找|xúnzhǎo|Seek, look for
+1189|迅速|xùnsù|rapid
+1190|延长|yáncháng|extend
+1191|严肃|yánsù|serious
+1192|演讲|yǎnjiǎng|speech
+1193|阳台|yángtái|balcony
+1194|摇|yáo|shake
+1195|要不|yàobù|Or
+1196|业务|yèwù|business
+1197|一辈子|yíbèizi|A lifetime
+1198|一律|yílǜ|all and singular
+1199|移动|yídòng|move
+1200|遗憾|yíhàn|pity
+1201|乙|yǐ|
+1202|以及|yǐjí|as well as
+1203|亿|yì|Billion
+1204|意义|yìyì|Significance
+1205|因而|yīn’ér|thus
+1206|银|yín|silver
+1207|印刷|yìnshuā|printing
+1208|英雄|yīngxióng|Hero
+1209|迎接|yíngjiē|meet, welcome
+1210|营业|yíngyè|Do business
+1211|影子|yǐngzi|shadow
+1212|硬件|yìngjiàn|Hardware
+1213|拥抱|yōngbào|embrace
+1214|用途|yòngtú|purpose
+1215|优美|yōuměi|Graceful
+1216|游览|yóulǎn|visit
+1217|犹豫|yóuyù|hesitate
+1218|幼儿园|yòu’éryuán|Kindergarten
+1219|与其|yǔqí|Rather than
+1220|语气|yǔqì|tone
+1221|预订|yùdìng|book; subscribe for
+1222|玉米|yùmǐ|Corn
+1223|原料|yuánliào|raw material
+1224|原则|yuánzé|Principle
+1225|乐器|yuèqì|instrument
+1226|运输|yùnshū|transport
+1227|在于|zàiyú|rest with
+1228|赞美|zànměi|Praise
+1229|则|zé|be
+1230|摘|zhāi|pick
+1231|粘贴|zhāntiē|paste
+1232|展览|zhǎnlǎn|exhibition
+1233|占|zhàn|occupy
+1234|战争|zhànzhēng|War
+1235|长辈|zhǎngbèi|Elder
+1236|涨|zhǎng|rise
+1237|招待|zhāodài|Entertain
+1238|着火|zháohuǒ|on fire
+1239|着凉|zháoliáng|get cold
+1240|召开|zhàokāi|convene
+1241|照常|zhàocháng|as usual
+1242|哲学|zhéxué|Philosophy
+1243|真实|zhēnshí|real
+1244|针对|zhēnduì|aim at
+1245|诊断|zhěnduàn|Diagnosis
+1246|振动|zhèndòng|Vibration
+1247|争论|zhēnglùn|debate
+1248|征求|zhēngqiú|ask for
+1249|整体|zhěngtǐ|Whole
+1250|政治|zhèngzhì|Politics
+1251|证据|zhèngjù|evidence
+1252|挣|zhèng|earn, make
+1253|直|zhí|straight
+1254|执照|zhízhào|License
+1255|指挥|zhǐhuī|command
+1256|制度|zhìdù|system
+1257|制作|zhìzuò|Make
+1258|至今|zhìjīn|so far
+1259|至于|zhìyú|As for
+1260|治疗|zhìliáo|Treatment
+1261|志愿者|zhìyuànzhě|Volunteer
+1262|中心|zhōngxīn|core
+1263|种类|zhǒnglèi|type
+1264|重大|zhòngdà|significant
+1265|重量|zhòngliàng|weight
+1266|猪|zhū|pig
+1267|逐渐|zhújiàn|gradually
+1268|煮|zhǔ|cook
+1269|主动|zhǔdòng|active
+1270|主人|zhǔrén|master
+1271|主席|zhǔxí|Chairman
+1272|主张|zhǔzhāng|opinion
+1273|祝福|zhùfú|blessing
+1274|注册|zhùcè|register
+1275|抓紧|zhuājǐn|Pay close attention to, grasp
+1276|转变|zhuǎnbiàn|change
+1277|装饰|zhuāngshì|decorate
+1278|撞|zhuàng|Hit
+1279|状态|zhuàngtài|state
+1280|追求|zhuīqiú|Pursuit
+1281|资金|zījīn|capital
+1282|资源|zīyuán|Resources
+1283|咨询|zīxún|Consultation
+1284|字母|zìmǔ|Letter
+1285|自从|zìcóng|Since
+1286|自豪|zìháo|Proud
+1287|自觉|zìjué|Conscious
+1288|自私|zìsī|selfish
+1289|自愿|zìyuàn|voluntarily
+1290|总裁|zǒngcái|CEO
+1291|总统|zǒngtǒng|President
+1292|组|zǔ|group
+1293|组合|zǔhé|combination
+1294|阻止|zǔzhǐ|prevent
+1295|醉|zuì|drunk
+1296|最初|zuìchū|First, at the beginning
+1297|尊敬|zūnjìng|respect
+1298|遵守|zūnshǒu|comply with
+1299|作品|zuòpǐn|works
+1300|作为|zuòwéi|As
