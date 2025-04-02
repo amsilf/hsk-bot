@@ -1,151 +1,587 @@
-n|chinese|pinyin|english|part_of_speech
-1|我|wǒ|I, me|pronoun
-2|我们|wǒmen|we, us|pronoun
-3|你|nǐ|you|pronoun
-4|他|tā|he, him|pronoun
-5|她|tā|she, her|pronoun
-6|这 (这儿)|zhè (zhèr)|this, here|pronoun
-7|那 (那儿)|nà (nàr)|that, there|pronoun
-8|哪|nǎ|which|pronoun
-9|哪儿|nǎr|where|pronoun
-10|谁|shéi|who|pronoun
-11|什么|shénme|what, why|pronoun
-12|多少|duōshǎo|how many, how much|pronoun
-13|几|jǐ|a few, how many|pronoun
-14|怎么|zěnme|how|pronoun
-15|怎么样|zěnmeyàng|how about|pronoun
-16|一|yī|one|numeral
-17|二|èr|two|numeral
-18|三|sān|three|numeral
-19|四|sì|four|numeral
-20|五|wǔ|five|numeral
-21|六|liù|six|numeral
-22|七|qī|seven|numeral
-23|八|bā|eight|numeral
-24|九|jiǔ|nine|numeral
-25|十|shí|ten|numeral
-26|个|gè|a measure word for normal objects|measure word
-27|岁|suì|a measure word for age|measure word
-28|本|běn|a measure word for books|measure word
-29|些|xiē|some|measure word
-30|块|kuài|piece, chunk|measure word
-31|不|bù|no|adverb
-32|没|méi|no|adverb
-33|很|hěn|quite, very|adverb
-34|太|tài|too|adverb
-35|都|dōu|all|adverb
-36|一点儿|yīdiǎnr|a little bit|adverb
-37|和|hé|and|conjunction
-38|在|zài|in, at|preposition
-39|的|de| |particle
-40|了|le| |particle
-41|吗|ma| |particle
-42|呢|ne| |particle
-43|喂|wèi|hello|interjection
-44|家|jiā|home|noun
-45|学校|xuéxiào|school|noun
-46|饭店|fàndiàn|restaurant|noun
-47|商店|shāngdiàn|store|noun
-48|医院|yīyuàn|hospital|noun
-49|中国|Zhōngguò|China|noun
-50|北京|Běijīng|Beijing|noun
-51|上|shàng|up|noun
-52|下|xià|down|noun
-53|前面|qiánmiàn|front|noun
-54|后面|hòumiàn|behind|noun
-55|里|lǐmiàn|inside|noun
-56|今天|jīntiān|today|noun
-57|明天|míngtiān|tomorrow|noun
-58|昨天|zuótiān|yesterday|noun
-59|上午|shàngwǔ|morning|noun
-60|中午|zhōngwǔ|noon|noun
-61|下午|xiàwǔ|afternoon|noun
-62|年|nián|year|noun
-63|月|yuè|month|noun
-64|号|hào|number/date|noun
-65|星期|xīngqī|week|noun
-66|点|diǎn|o’clock|noun
-67|分钟|fēnzhōng|minute|noun
-68|现在|xiànzài|now|noun
-69|时候|shíhou|time|noun
-70|爸爸|bàba|father|noun
-71|妈妈|māma|mother|noun
-72|儿子|érzi|son|noun
-73|女儿|nǚér|daughter|noun
-74|老师|lǎoshī|teacher|noun
-75|学生|xuéshēng|student|noun
-76|同学|tóngxué|classmate|noun
-77|朋友|péngyǒu|friend|noun
-78|医生|yīshēng|doctor|noun
-79|先生|xiānsheng|sir|noun
-80|小姐|xiǎojiě|miss|noun
-81|衣服|yīfu|cloth|noun
-82|水|shuǐ|water|noun
-83|菜|cài|dish|noun
-84|米饭|mǐfàn|rice|noun
-85|水果|shuǐguǒ|fruit|noun
-86|苹果|píngguǒ|apple|noun
-87|茶|chá|tea|noun
-88|杯子|bēizi|cup|noun
-89|钱|qián|money|noun
-90|飞机|fēijī|airplane|noun
-91|出租车|chūzūchē|taxi|noun
-92|电视|diànshì|television|noun
-93|电脑|diànnǎo|computer|noun
-94|电影|diànyǐng|movie|noun
-95|天气|tiānqì|weather|noun
-96|猫|māo|cat|noun
-97|狗|gǒu|dog|noun
-98|东西|dōngxi|thing|noun
-99|人|rén|person|noun
-100|名字|míngzi|name|noun
-101|书|shū|book|noun
-102|汉语|hànyǔ|mandarin chinese|noun
-103|字|zì|character|noun
-104|桌子|zhuōzi|desk|noun
-105|椅子|yǐzi|chair|noun
-106|谢谢|xièxie|thanks|verb
-107|不客气|búkèqì|you are welcome|verb
-108|再见|zàijiàn|good bye|verb
-109|请|qǐng|please|verb
-110|对不起|duìbùqǐ|sorry|verb
-111|没关系|méiguānxì|It doesn’t matter|verb
-112|是|shì|to be|verb
-113|有|yǒu|have|verb
-114|看|kàn|look|verb
-115|听|tīng|listen|verb
-116|说|shuō|speak|verb
-117|读|dú|read|verb
-118|写|xiě|write|verb
-119|看见|kànjiàn|see|verb
-120|叫|jiào|call|verb
-121|来|lái|come|verb
-122|回|huí|return|verb
-123|去|qù|go|verb
-124|吃|chī|eat|verb
-125|喝|hē|drink|verb
-126|睡觉|shuìjiào|sleep|verb
-127|打电话|dǎdiànhuà|make phone call|verb
-128|做|zuò|do|verb
-129|买|mǎi|buy|verb
-130|开|kāi|open|verb
-131|坐|zuò|sit|verb
-132|住|zhù|live|verb
-133|学习|xuéxí|study|verb
-134|工作|gōngzuò|work|verb
-135|下雨|xiàyǔ|rain|verb
-136|爱|ài|love|verb
-137|喜欢|xǐhuān|love, like|verb
-138|想|xiǎng|want|verb
-139|认识|rènshi|know|verb
-140|会|huì|can|verb
-141|能|néng|can, be able to|verb
-142|好|hǎo|good|adjective
-143|大|dà|big|adjective
-144|小|xiǎo|small|adjective
-145|多|duō|many, much|adjective
-146|少|shǎo|few, little|adjective
-147|冷|lěng|cold|adjective
-148|热|rè|hot|adjective
-149|高兴|gāoxìng|happy|adjective
-150|漂亮|piàoliang|beautiful|adjective
+No|Chinese|Pinyin|English|part_of_speech
+1|阿姨|āyí|aunt|noun
+2|啊|a|ah|interjection
+3|矮|ǎi|short|adjective
+4|爱好|àihào|hobby|noun
+5|安静|ānjìng|Be quiet|adjective
+6|把|bǎ|hold|preposition
+7|班|bān|class|noun
+8|搬|bān|move|verb
+9|半|bàn|half|numeral
+10|办法|bànfǎ|Way|noun
+11|办公室|bàngōngshì|Office|noun
+12|帮忙|bāngmáng|Help|verb
+13|包|bāo|package|noun
+14|饱|bǎo|full|adjective
+15|北方|běifāng|north|noun
+16|被|bèi|cover|preposition
+17|鼻子|bízi|nose|noun
+18|比较|bǐjiào|compare|verb
+19|比赛|bǐsài|Match|noun
+20|笔记本|bǐjìběn|notebook|noun
+21|必须|bìxū|Must|adverb
+22|变化|biànhuà|change|noun
+23|别人|biéren|Others|pronoun
+24|冰箱|bīngxiāng|Refrigerator|noun
+25|菜单|càidān|menu|noun
+26|参加|cānjiā|participate in|verb
+27|草|cǎo|grass|noun
+28|层|céng|layer|noun
+29|差|chà|bad|adjective
+30|超市|chāoshì|Supermarket|noun
+31|衬衫|chènshān|shirt|noun
+32|成绩|chéngjì|achievement|noun
+33|城市|chéngshì|City|noun
+34|迟到|chídào|Late|verb
+35|除了|chúle|except, besides|preposition
+36|船|chuán|ship|noun
+37|春|chūn|spring|noun
+38|词典|cídiǎn|Dictionaries|noun
+39|聪明|cōngming|clever|adjective
+40|打扫|dǎsǎo|Clean|verb
+41|打算|dǎsuàn|Plan|verb
+42|带|dài|belt|noun
+43|担心|dānxīn|Worry|verb
+44|蛋糕|dàngāo|Cake|noun
+45|当然|dāngrán|Of course|adverb
+46|地|de||particle
+47|灯|dēng|lamp|noun
+48|地方|dìfang|local|noun
+49|地铁|dìtiě|metro|noun
+50|地图|dìtú|Map|noun
+51|电梯|diàntī|Elevator|noun
+52|电子邮件|diànzǐyóujiàn|E-mail|noun
+53|东|dōng|east|noun
+54|冬|dōng|winter|noun
+55|动物|dòngwù|Animal|noun
+56|短|duǎn|short|adjective
+57|段|duàn|paragraph|noun
+58|锻炼|duànliàn|Physical exercise|verb
+59|多么|duōme|such|adverb
+60|饿|è|hungry|adjective
+61|不但……而且……|búdàn…érqiě…|not only…but also…|conjunction
+62|耳朵|ěrduo|Ears|noun
+63|发|fā|send out|verb
+64|发烧|fāshāo|Have a fever|verb
+65|发现|fāxiàn|find, discover|verb
+66|方便|fāngbiàn|convenient|adjective
+67|放|fàng|discharge|verb
+68|放心|fàngxīn|Don’t worry|verb
+69|分|fēn|min|noun
+70|附近|fùjìn|nearby|noun
+71|复习|fùxí|Review|verb
+72|干净|gānjìng|clean|adjective
+73|感兴趣|gǎnxìngqù|be interested in|verb
+74|感冒|gǎnmào|get a cold|verb
+75|刚才|gāngcái|just|adverb
+76|个子|gèzi|height|noun
+77|跟|gēn|with|preposition
+78|根据|gēnjù|according to|preposition
+79|更|gèng|more|adverb
+80|公斤|gōngjīn|Kg.|noun
+81|公园|gōngyuán|Park|noun
+82|故事|gùshi|Story|noun
+83|刮风|guāfēng|Windy|verb
+84|关|guān|shut|verb
+85|关系|guānxì|relationship|noun
+86|关心|guānxīn|Care for|verb
+87|关于|guānyú|about|preposition
+88|国家|guójiā|Country|noun
+89|过去|guòqù|Past times|noun
+90|过（动词）|guò|pass|verb
+91|还是|háishì|still|adverb
+92|害怕|hàipà|Fear|verb
+93|黑板|hēibǎn|blackboard|noun
+94|后来|hòulái|later|noun
+95|护照|hùzhào|passport|noun
+96|花（动词）|huā|spend|verb
+97|花（名词）|huā|flower|noun
+98|画|huà|painting|noun
+99|坏|huài|bad|adjective
+100|欢迎|huānyíng|Welcome|verb
+101|还（动词）|huán|Return|verb
+102|环境|huánjìng|Environment|noun
+103|换|huàn|change|verb
+104|黄河|huánghé|Yellow River|noun
+105|回答|huídá|Answer|verb
+106|会议|huìyì|Meeting|noun
+107|或者|huòzhě|perhaps|conjunction
+108|几乎|jīhū|almost|adverb
+109|机会|jīhuì|Opportunity|noun
+110|极|jí|extremely|adverb
+111|记得|jìde|remember|verb
+112|季节|jìjié|Season|noun
+113|检查|jiǎnchá|inspect|verb
+114|简单|jiǎndān|simple|adjective
+115|健康|jiànkāng|Healthy|adjective
+116|见面|jiànmiàn|meet|verb
+117|讲|jiǎng|speak|verb
+118|教|jiāo|teach|verb
+119|角|jiǎo|horn|noun
+120|脚|jiǎo|foot|noun
+121|接|jiē|pick,get|verb
+122|街道|jiēdào|Street|noun
+123|结婚|jiéhūn|marry|verb
+124|结束|jiéshù|End|verb
+125|节目|jiémù|program|noun
+126|节日|jiérì|festival|noun
+127|解决|jiějué|Solve|verb
+128|借|jiè|borrow|verb
+129|经常|jīngcháng|Often|adverb
+130|经过|jīngguò|After, through|verb
+131|经理|jīnglǐ|manager|noun
+132|久|jiǔ|long|adjective
+133|旧|jiù|old,used|adjective
+134|句子|jùzi|sentence|noun
+135|决定|juédìng|Decision|noun
+136|渴|kě|thirsty|adjective
+137|可爱|kě’ài|Lovely|adjective
+138|刻|kè|moment|noun
+139|客人|kèrén|Guest|noun
+140|空调|kōngtiáo|Air conditioner|noun
+141|口|kǒu|mouth|noun
+142|哭|kū|cry|verb
+143|裤子|kùzi|trousers|noun
+144|筷子|kuàizi|chopsticks|noun
+145|蓝|lán|blue|adjective
+146|老|lǎo|old|adjective
+147|离开|líkāi|leave|verb
+148|礼物|lǐwù|gift|noun
+149|历史|lìshǐ|History|noun
+150|脸|liǎn|face|noun
+151|聊天|liáotiān|chat|verb
+152|练习|liànxí|Practice|verb
+153|辆|liàng|Car|noun
+154|了解|liǎojiě|understand|verb
+155|邻居|línjū|neighbor|noun
+156|留学|liúxué|Overseas Study|verb
+157|楼|lóu|floor|noun
+158|绿|lǜ|green|adjective
+159|马|mǎ|Horse|noun
+160|马上|mǎshàng|Right off|adverb
+161|满意|mǎnyì|Satisfied|adjective
+162|帽子|màozi|Hat|noun
+163|米|mǐ|rice|noun
+164|面包|miànbāo|Bread|noun
+165|明白|míngbai|clear|adjective
+166|拿|ná|take|verb
+167|奶奶|nǎinai|grandma|noun
+168|南|nán|south|noun
+169|难|nán|difficult|adjective
+170|难过|nánguò|sad|adjective
+171|年级|niánjí|grade|noun
+172|年轻|niánqīng|Young|adjective
+173|鸟|niǎo|bird|noun
+174|努力|nǔlì|Strive|verb
+175|爬山|páshān|Mountain climbing|verb
+176|盘子|pánzi|plate|noun
+177|胖|pàng|fat|adjective
+178|啤酒|píjiǔ|Beer|noun
+179|皮鞋|píxié|leather shoes|noun
+180|瓶子|píngzi|bottle|noun
+181|其实|qíshí|actually|adverb
+182|其他|qítā|Other|pronoun
+183|骑|qí|ride|verb
+184|奇怪|qíguài|strange|adjective
+185|起来|qǐlái|get up|verb
+186|起飞|qǐfēi|take off|verb
+187|清楚|qīngchu|clear|adjective
+188|请假|qǐngjià|ask for leave|verb
+189|秋|qiū|autumn|noun
+190|裙子|qúnzi|skirt|noun
+191|然后|ránhòu|Then|conjunction
+192|热情|rèqíng|Enthusiasm|noun
+193|认为|rènwéi|think|verb
+194|认真|rènzhēn|earnest|adjective
+195|容易|róngyì|easily|adjective
+196|如果|rúguǒ|If|conjunction
+197|伞|sǎn|umbrella|noun
+198|上网|shàngwǎng|Surf the Internet|verb
+199|生气|shēngqì|get angry|verb
+200|声音|shēngyīn|voice|noun
+201|试|shì|try|verb
+202|世界|shìjiè|world|noun
+203|瘦|shòu|thin|adjective
+204|舒服|shūfu|comfortable|adjective
+205|叔叔|shūshu|uncle|noun
+206|树|shù|tree|noun
+207|数学|shùxué|Mathematics|noun
+208|刷牙|shuāyá|Brush one’s teeth|verb
+209|双|shuāng|double, pair|noun
+210|水平|shuǐpíng|level|noun
+211|司机|sījī|Driver|noun
+212|太阳|tàiyáng|sun|noun
+213|特别|tèbié|Especially|adverb
+214|疼|téng|hurt|verb
+215|提高|tígāo|increase|verb
+216|体育|tǐyù|Sports|noun
+217|甜|tián|sweet|adjective
+218|条|tiáo|strip|noun
+219|同事|tóngshì|Colleague|noun
+220|同意|tóngyì|Agree|verb
+221|头发|tóufa|Hair|noun
+222|突然|tūrán|suddenly|adverb
+223|图书馆|túshūguǎn|Library|noun
+224|腿|tuǐ|leg|noun
+225|完成|wánchéng|complete|verb
+226|碗|wǎn|bowl|noun
+227|万|wàn|ten thousand|numeral
+228|忘记|wàngjì|forget|verb
+229|为|wèi|for|preposition
+230|为了|wèile|in order to|preposition
+231|位|wèi|position|noun
+232|文化|wénhuà|Culture|noun
+233|西|xī|west|noun
+234|习惯|xíguàn|Habit|noun
+235|洗手间|xǐshǒujiān|Restroom|noun
+236|洗澡|xǐzǎo|Take a shower|verb
+237|夏|xià|summer|noun
+238|先|xiān|first|adverb
+239|香蕉|xiāngjiāo|Banana|noun
+240|相信|xiāngxìn|believe|verb
+241|向|xiàng|towards|preposition
+242|像|xiàng|image|noun
+243|小心|xiǎoxīn|watch out|verb
+244|校长|xiàozhǎng|Principal|noun
+245|新闻|xīnwén|news|noun
+246|新鲜|xīnxiān|fresh|adjective
+247|信用卡|xìnyòngkǎ|Credit card|noun
+248|行李箱|xínglixiāng|Trunk|noun
+249|熊猫|xióngmāo|Panda|noun
+250|需要|xūyào|Need|verb
+251|选择|xuǎnzé|Choice|noun
+252|要求|yāoqiú|Requirement|noun
+253|爷爷|yéye|grandpa|noun
+254|一定|yídìng|Certain|adjective
+255|一共|yígòng|Altogether|adverb
+256|一会儿|yíhuìr|a while|noun
+257|一样|yíyàng|equally|adverb
+258|以前|yǐqián|before|noun
+259|一般|yìbān|commonly|adverb
+260|一边|yìbiān|One side|noun
+261|一直|yìzhí|always|adverb
+262|音乐|yīnyuè|Music|noun
+263|银行|yínháng|Bank|noun
+264|饮料|yǐnliào|Drinks|noun
+265|应该|yīnggāi|Should|verb
+266|影响|yǐngxiǎng|Influence|noun
+267|用|yòng|use|verb
+268|游戏|yóuxì|Game|noun
+269|有名|yǒumíng|Famous|adjective
+270|又|yòu|again|adverb
+271|遇到|yùdào|encounter|verb
+272|元|yuán|element; yuan|noun
+273|愿意|yuànyì|Be willing|verb
+274|月亮|yuèliang|Moon|noun
+275|越|yuè|the more|adverb
+276|站|zhàn|station|noun
+277|张|zhāng|Zhang (surname)|noun
+278|长（动词）|zhǎng|grow|verb
+279|着急|zháojí|Worry|verb
+280|照顾|zhàogù|look after|verb
+281|照片|zhàopiàn|Photo|noun
+282|照相机|zhàoxiàngjī|Camera|noun
+283|只（量词）|zhī|(measure word)|measure word
+284|只（副词）|zhǐ|only|adverb
+285|只有……才……|zhǐyǒu…cái…|only if|conjunction
+No|Chinese|Pinyin|English
+1|阿姨|āyí|aunt
+2|啊|a|ah
+3|矮|ǎi|short
+4|爱好|àihào|hobby
+5|安静|ānjìng|Be quiet
+6|把|bǎ|hold
+7|班|bān|class
+8|搬|bān|move
+9|半|bàn|half
+10|办法|bànfǎ|Way
+11|办公室|bàngōngshì|Office
+12|帮忙|bāngmáng|Help
+13|包|bāo|package
+14|饱|bǎo|full
+15|北方|běifāng|north
+16|被|bèi|cover
+17|鼻子|bízi|nose
+18|比较|bǐjiào|compare
+19|比赛|bǐsài|Match
+20|笔记本|bǐjìběn|notebook
+21|必须|bìxū|Must
+22|变化|biànhuà|change
+23|别人|biéren|Others
+24|冰箱|bīngxiāng|Refrigerator
+25|菜单|càidān|menu
+26|参加|cānjiā|participate in
+27|草|cǎo|grass
+28|层|céng|layer
+29|差|chà|bad
+30|超市|chāoshì|Supermarket
+31|衬衫|chènshān|shirt
+32|成绩|chéngjì|achievement
+33|城市|chéngshì|City
+34|迟到|chídào|Late
+35|除了|chúle|except, besides
+36|船|chuán|ship
+37|春|chūn|spring
+38|词典|cídiǎn|Dictionaries
+39|聪明|cōngming|clever
+40|打扫|dǎsǎo|Clean
+41|打算|dǎsuàn|Plan
+42|带|dài|belt
+43|担心|dānxīn|Worry
+44|蛋糕|dàngāo|Cake
+45|当然|dāngrán|Of course
+46|地|de|
+47|灯|dēng|lamp
+48|地方|dìfang|local
+49|地铁|dìtiě|metro
+50|地图|dìtú|Map
+51|电梯|diàntī|Elevator.
+52|电子邮件|diànzǐyóujiàn|E-mail
+53|东|dōng|east
+54|冬|dōng|winter
+55|动物|dòngwù|Animal
+56|短|duǎn|short
+57|段|duàn|paragraph
+58|锻炼|duànliàn|Physical exercise
+59|多么|duōme|such
+60|饿|è|hungry
+61|不但……而且……|búdàn…érqiě…|not only…but also…
+62|耳朵|ěrduo|Ears
+63|发|fā|send out
+64|发烧|fāshāo|Have a fever
+65|发现|fāxiàn|find, discover
+66|方便|fāngbiàn|convenient
+67|放|fàng|discharge
+68|放心|fàngxīn|Don’t worry
+69|分|fēn|min
+70|附近|fùjìn|nearby
+71|复习|fùxí|Review
+72|干净|gānjìng|clean
+73|感兴趣|gǎnxìngqù|be interested in
+74|感冒|gǎnmào|get a cold
+75|刚才|gāngcái|just
+76|个子|gèzi|height
+77|跟|gēn|with
+78|根据|gēnjù|according to
+79|更|gèng|more
+80|公斤|gōngjīn|Kg.
+81|公园|gōngyuán|Park
+82|故事|gùshi|Story
+83|刮风|guāfēng|Windy
+84|关|guān|shut
+85|关系|guānxì|relationship
+86|关心|guānxīn|Care for
+87|关于|guānyú|about
+88|国家|guójiā|Country
+89|过去|guòqù|Past times
+90|过（动词）|guò|pass
+91|还是|háishì|still
+92|害怕|hàipà|Fear
+93|黑板|hēibǎn|blackboard
+94|后来|hòulái|later
+95|护照|hùzhào|passport
+96|花（动词）|huā|spend
+97|花（名词）|huā|flower
+98|画|huà|painting
+99|坏|huài|bad
+100|欢迎|huānyíng|Welcome
+101|还（动词）|huán|Return
+102|环境|huánjìng|Environment
+103|换|huàn|change
+104|黄河|huánghé|Yellow River
+105|回答|huídá|Answer
+106|会议|huìyì|Meeting
+107|或者|huòzhě|perhaps
+108|几乎|jīhū|almost
+109|机会|jīhuì|Opportunity
+110|极|jí|extremely
+111|记得|jìde|remember
+112|季节|jìjié|Season
+113|检查|jiǎnchá|inspect
+114|简单|jiǎndān|simple
+115|健康|jiànkāng|Healthy
+116|见面|jiànmiàn|meet
+117|讲|jiǎng|speak
+118|教|jiāo|teach
+119|角|jiǎo|horn
+120|脚|jiǎo|foot
+121|接|jiē|pick,get
+122|街道|jiēdào|Street
+123|结婚|jiéhūn|marry
+124|结束|jiéshù|End
+125|节目|jiémù|program
+126|节日|jiérì|festival
+127|解决|jiějué|Solve
+128|借|jiè|borrow
+129|经常|jīngcháng|Often
+130|经过|jīngguò|After, through
+131|经理|jīnglǐ|manager
+132|久|jiǔ|long
+133|旧|jiù|old,used
+134|句子|jùzi|sentence
+135|决定|juédìng|Decision
+136|渴|kě|thirsty
+137|可爱|kě’ài|Lovely
+138|刻|kè|moment
+139|客人|kèrén|Guest
+140|空调|kōngtiáo|Air conditioner
+141|口|kǒu|mouth
+142|哭|kū|cry
+143|裤子|kùzi|trousers
+144|筷子|kuàizi|chopsticks
+145|蓝|lán|blue
+146|老|lǎo|old
+147|离开|líkāi|leave
+148|礼物|lǐwù|gift
+149|历史|lìshǐ|History
+150|脸|liǎn|face
+151|聊天|liáotiān|chat
+152|练习|liànxí|Practice
+153|辆|liàng|Car
+154|了解|liǎojiě|understand
+155|邻居|línjū|neighbor
+156|留学|liúxué|Overseas Study
+157|楼|lóu|floor
+158|绿|lǜ|green
+159|马|mǎ|Horse
+160|马上|mǎshàng|Right off
+161|满意|mǎnyì|Satisfied
+162|帽子|màozi|Hat
+163|米|mǐ|rice
+164|面包|miànbāo|Bread
+165|明白|míngbai|clear
+166|拿|ná|take
+167|奶奶|nǎinai|grandma
+168|南|nán|south
+169|难|nán|difficult
+170|难过|nánguò|sad
+171|年级|niánjí|grade
+172|年轻|niánqīng|Young
+173|鸟|niǎo|bird
+174|努力|nǔlì|Strive
+175|爬山|páshān|Mountain climbing
+176|盘子|pánzi|plate
+177|胖|pàng|fat
+178|啤酒|píjiǔ|Beer
+179|皮鞋|píxié|leather shoes
+180|瓶子|píngzi|bottle
+181|其实|qíshí|actually
+182|其他|qítā|Other
+183|骑|qí|ride
+184|奇怪|qíguài|strange
+185|起来|qǐlái|get up
+186|起飞|qǐfēi|take off
+187|清楚|qīngchu|clear
+188|请假|qǐngjià|ask for leave
+189|秋|qiū|autumn
+190|裙子|qúnzi|skirt
+191|然后|ránhòu|Then
+192|热情|rèqíng|Enthusiasm
+193|认为|rènwéi|think
+194|认真|rènzhēn|earnest
+195|容易|róngyì|easily
+196|如果|rúguǒ|If
+197|伞|sǎn|umbrella
+198|上网|shàngwǎng|Surf the Internet
+199|生气|shēngqì|get angry
+200|声音|shēngyīn|voice
+201|试|shì|try
+202|世界|shìjiè|world
+203|瘦|shòu|thin
+204|舒服|shūfu|comfortable
+205|叔叔|shūshu|uncle
+206|树|shù|tree
+207|数学|shùxué|Mathematics
+208|刷牙|shuāyá|Brush one’s teeth
+209|双|shuāng|double, pair
+210|水平|shuǐpíng|level
+211|司机|sījī|Driver
+212|太阳|tàiyáng|sun
+213|特别|tèbié|Especially
+214|疼|téng|hurt
+215|提高|tígāo|increase
+216|体育|tǐyù|Sports
+217|甜|tián|sweet
+218|条|tiáo|strip
+219|同事|tóngshì|Colleague
+220|同意|tóngyì|Agree
+221|头发|tóufa|Hair
+222|突然|tūrán|suddenly
+223|图书馆|túshūguǎn|Library
+224|腿|tuǐ|leg
+225|完成|wánchéng|complete
+226|碗|wǎn|bowl
+227|万|wàn|ten thousand
+228|忘记|wàngjì|forget
+229|为|wèi|for
+230|为了|wèile|in order to
+231|位|wèi|position
+232|文化|wénhuà|Culture
+233|西|xī|west
+234|习惯|xíguàn|Habit
+235|洗手间|xǐshǒujiān|Restroom
+236|洗澡|xǐzǎo|Take a shower
+237|夏|xià|summer
+238|先|xiān|first
+239|香蕉|xiāngjiāo|Banana
+240|相信|xiāngxìn|believe
+241|向|xiàng|towards
+242|像|xiàng|image
+243|小心|xiǎoxīn|watch out
+244|校长|xiàozhǎng|Principal
+245|新闻|xīnwén|news
+246|新鲜|xīnxiān|fresh
+247|信用卡|xìnyòngkǎ|Credit card
+248|行李箱|xínglixiāng|Trunk
+249|熊猫|xióngmāo|Panda
+250|需要|xūyào|Need
+251|选择|xuǎnzé|Choice
+252|要求|yāoqiú|Requirement
+253|爷爷|yéye|grandpa
+254|一定|yídìng|Certain
+255|一共|yígòng|Altogether
+256|一会儿|yíhuìr|a while
+257|一样|yíyàng|equally
+258|以前|yǐqián|before
+259|一般|yìbān|commonly
+260|一边|yìbiān|One side
+261|一直|yìzhí|always
+262|音乐|yīnyuè|Music
+263|银行|yínháng|Bank
+264|饮料|yǐnliào|Drinks
+265|应该|yīnggāi|Should
+266|影响|yǐngxiǎng|Influence
+267|用|yòng|use
+268|游戏|yóuxì|Game
+269|有名|yǒumíng|Famous
+270|又|yòu|again
+271|遇到|yùdào|encounter
+272|元|yuán|element; yuan
+273|愿意|yuànyì|Be willing
+274|月亮|yuèliang|Moon
+275|越|yuè|the more
+276|站|zhàn|station
+277|张|zhāng|Zhang (surname)
+278|长（动词）|zhǎng|grow
+279|着急|zháojí|Worry
+280|照顾|zhàogù|look after
+281|照片|zhàopiàn|Photo
+282|照相机|zhàoxiàngjī|Camera
+283|只（量词）|zhī|(measure word)
+284|只（副词）|zhǐ|only
+285|只有……才……|zhǐyǒu…cái…|only if
+286|中文|zhōngwén|Chinese
+287|中间|zhōngjiān|Middle
+288|终于|zhōngyú|finally
+289|种|zhǒng|species
+290|重要|zhòngyào|important
+291|周末|zhōumò|Weekend
+292|主要|zhǔyào|main
+293|注意|zhùyì|Be careful
+294|自己|zìjǐ|Own, self
+295|自行车|zìxíngchē|Bicycle
+296|总是|zǒngshì|always
+297|嘴|zuǐ|mouth
+298|最后|zuìhòu|Last
+299|最近|zuìjìn|lately
+300|作业|zuòyè|homework
