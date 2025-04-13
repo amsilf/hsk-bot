@@ -1,50 +1,50 @@
 n|chinese|pinyin|english|part_of_speech
-1|您|nín|you|pronoun
-2|它|tā|it|pronoun
-3|大家|dàjiā|everyone|pronoun
-4|每|měi|every, each|pronoun
+1|您|nín|you (polite, respectful)|pronoun
+2|它|tā|it, this, that|pronoun
+3|大家|dàjiā|everyone, everybody, all|pronoun
+4|每|měi|every, each, all|pronoun
 5|为什么|wèishénme|why|pronoun
 6|零|líng|zero|numeral
 7|两|liǎng|two|numeral
 8|百|bǎi|hundred|numeral
 9|千|qiān|thousand|numeral
 10|第一|dìyī|first|numeral
-11|次|cì|times|measure word
-12|件|jiàn|piece|measure word
-13|别|bié|do not|adverb
-14|非常|fēicháng|very|adverb
-15|也|yě|also|adverb
-16|还|hái|still|adverb
-17|最|zuì|the most|adverb
-18|真|zhēn|really|adverb
-19|正在|zhèngzài|be being|adverb
-20|已经|yǐjīng|already|adverb
-21|一起|yìqǐ|together|adverb
-22|再|zài|again|adverb
-23|就|jiǜ|at once|adverb
+11|次|cì|times, frequency, occurrence|measure word
+12|件|jiàn|piece, item, article|measure word
+13|别|bié|do not, don't, must not|adverb
+14|非常|fēicháng|very, extremely, quite|adverb
+15|也|yě|also, too, as well|adverb
+16|还|hái|still, yet, also|adverb
+17|最|zuì|the most, most, -est|adverb
+18|真|zhēn|really, truly, indeed|adverb
+19|正在|zhèngzài|in the process of, currently, now|adverb
+20|已经|yǐjīng|already, yet, have done|adverb
+21|一起|yìqǐ|together, with, jointly|adverb
+22|再|zài|again, once more, another time|adverb
+23|就|jiǜ|at once, right away, immediately|adverb
 24|因为……所以……|yīnwèi…suǒyǐ…|because…so…|conjunction
 25|虽然……但是……|suīrán…dànshì…|although… but…|conjunction
-26|从|cóng|from|preposition
-27|比|bǐ|comparing to|preposition
-28|往|wǎng|toward, to|preposition
-29|离|lí|indicate the distance between two objects|preposition
+26|从|cóng|from, since, through|preposition
+27|比|bǐ|comparing to, than, compare|preposition
+28|往|wǎng|toward, to, in the direction of|preposition
+29|离|lí|from, away from, distance from|preposition
 30|得|de||particle
 31|着|zhe||particle
 32|过|guò||particle
 33|吧|ba||particle
 34|机场|jīchǎng|airport|noun
 35|教室|jiàoshì|classroom|noun
-36|房间|fángjiān|room|noun
-37|路|lù|road|noun
+36|房间|fángjiān|room, chamber, apartment|noun
+37|路|lù|road, street, path|noun
 38|左边|zuǒbiān|left|noun
 39|右边|yòubiān|right|noun
 40|外|wài|outside|noun
-41|旁边|pángbiān|side|noun
+41|旁边|pángbiān|side, beside, next to|noun
 42|一下|yīxià|in a short while|noun
 43|早上|zǎoshàng|morning|noun
 44|晚上|wǎnshàng|night|noun
 45|小时|xiǎoshí|hour|noun
-46|时间|shíjiān|time|noun
+46|时间|shíjiān|time, period, duration|noun
 47|去年|qùnián|last year|noun
 48|日|rì|date|noun
 49|生日|shēngrì|birthday|noun
@@ -54,7 +54,7 @@ n|chinese|pinyin|english|part_of_speech
 53|妹妹|mèimei|younger sister|noun
 54|丈夫|zhàngfu|husband|noun
 55|妻子|qīzi|wife|noun
-56|孩子|háizi|child|noun
+56|孩子|háizi|child, kid, children|noun
 57|男人|nánrén|man|noun
 58|女人|nǚrén|woman|noun
 59|服务员|fúwùyuán|waiter|noun
@@ -65,7 +65,7 @@ n|chinese|pinyin|english|part_of_speech
 64|西瓜|xīguā|watermelon|noun
 65|咖啡|kāfēi|coffee|noun
 66|雪|xuě|snow|noun
-67|药|yào|medicine|noun
+67|药|yào|medicine, drug, medication|noun
 68|手机|shǒujī|cellphone|noun
 69|手表|shǒubiǎo|watch|noun
 70|眼睛|yǎnjīng|eye|noun
@@ -73,79 +73,79 @@ n|chinese|pinyin|english|part_of_speech
 72|公共汽车|gōnggòngqìchē|bus|noun
 73|报纸|bàozhǐ|newspaper|noun
 74|门|mén|door|noun
-75|题|tí|topic, item|noun
+75|题|tí|topic, item, question|noun
 76|课|kè|lesson|noun
 77|姓|xìng|surname|noun
-78|问题|wèntí|question|noun
-79|事情|shìqing|matter|noun
+78|问题|wèntí|question, problem, issue|noun
+79|事情|shìqing|matter, affair, thing|noun
 80|考试|kǎoshì|exam|noun
 81|票|piào|ticket|noun
-82|意思|yìsi|meaning|noun
+82|意思|yìsi|meaning, idea, significance|noun
 83|颜色|yánsè|color|noun
 84|铅笔|qiánbǐ|pencil|noun
 85|面条|miàntiáo|noodle|noun
 86|火车站|huǒchēzhàn|train station|noun
-87|公司|gōngsī|company|noun
+87|公司|gōngsī|company, corporation, firm|noun
 88|宾馆|bīngguǎn|hotel|noun
-89|说话|shuōhuà|talk|verb
+89|说话|shuōhuà|talk, speak, chat|verb
 90|卖|mài|sell|verb
-91|问|wèn|ask|verb
-92|走|zǒu|walk|verb
-93|进|jìn|enter|verb
-94|出|chū|come|verb
-95|跑步|pǎobù|run|verb
+91|问|wèn|ask, inquire, question|verb
+92|走|zǒu|walk, go, leave|verb
+93|进|jìn|enter, come in, go in|verb
+94|出|chū|come out, go out, exit|verb
+95|跑步|pǎobù|run, jog, go running|verb
 96|到|dào|arrive|verb
-97|穿|chuān|wear|verb
-98|洗|xǐ|wash|verb
-99|给|gěi|give|verb
-100|找|zhǎo|find|verb
-101|懂|dǒng|understand|verb
-102|笑|xiào|smile|verb
-103|告诉|gàosù|tell|verb
-104|准备|zhǔnbèi|prepare|verb
-105|开始|kāishǐ|begin|verb
-106|介绍|jièshào|introduce|verb
-107|帮助|bāngzhù|help|verb
-108|玩|wán|play|verb
-109|送|sòng|present|verb
-110|等|děng|wait|verb
-111|让|ràng|let|verb
+97|穿|chuān|wear, put on, dress|verb
+98|洗|xǐ|wash, clean, rinse|verb
+99|给|gěi|give, hand over, provide|verb
+100|找|zhǎo|find, look for, seek|verb
+101|懂|dǒng|understand, comprehend, know|verb
+102|笑|xiào|smile, laugh, grin|verb
+103|告诉|gàosù|tell, inform, let know|verb
+104|准备|zhǔnbèi|prepare, get ready, plan|verb
+105|开始|kāishǐ|begin, start, commence|verb
+106|介绍|jièshào|introduce, present, recommend|verb
+107|帮助|bāngzhù|help, assist, aid|verb
+108|玩|wán|play, have fun, enjoy|verb
+109|送|sòng|present, give, deliver|verb
+110|等|děng|wait, wait for, expect|verb
+111|让|ràng|let, allow, make|verb
 112|起床|qǐchuáng|get up|verb
 113|唱歌|chànggē|sing|verb
 114|跳舞|tiàowǔ|dance|verb
 115|旅游|lǚyóu|travel|verb
 116|上班|shàngbān|be on duty|verb
-117|生病|shēngbìng|get ill, get sick|verb
-118|休息|xiūxi|rest|verb
-119|运动|yùndòng|exercise|verb
+117|生病|shēngbìng|get ill, get sick, fall ill|verb
+118|休息|xiūxi|rest, take a break, relax|verb
+119|运动|yùndòng|exercise, work out, move|verb
 120|游泳|yóuyǒng|swim|verb
 121|踢足球|tīzúqiú|play football|verb
 122|打篮球|dǎlánqiú|play basketball|verb
 123|完|wán|finish|verb
-124|觉得|juédé|think|verb
-125|知道|zhīdao|know|verb
-126|希望|xīwàng|hope|verb
-127|可以|kěyǐ|can|verb
-128|要|yào|want|verb
-129|可能|kěnéng|may|verb
-130|高|gāo|tall|adjective
+124|觉得|juédé|think, feel, believe|verb
+125|知道|zhīdao|know, understand, be aware|verb
+126|希望|xīwàng|hope, wish, expect|verb
+127|可以|kěyǐ|can, may, possible|verb
+128|要|yào|want, need, must|verb
+129|可能|kěnéng|may, might, possibly|verb
+130|高|gāo|tall, high, lofty|adjective
 131|红|hóng|red|adjective
 132|白|bái|white|adjective
 133|黑|hēi|black|adjective
-134|忙|máng|busy|adjective
-135|快|kuài|fast|adjective
-136|慢|màn|slow|adjective
-137|远|yuǎn|far|adjective
-138|近|jìn|close|adjective
-139|好吃|hǎochī|delicious|adjective
-140|累|lèi|tired|adjective
-141|长|cháng|long|adjective
-142|新|xīn|new|adjective
-143|贵|guì|expensive|adjective
-144|便宜|piányi|cheap|adjective
-145|晴|qíng|fine|adjective
-146|阴|yīn|cloudy|adjective
-147|错|cuò|wrong|adjective
-148|快乐|kuàilè|happy|adjective
-149|对|duì|to|adjective
-150|对|duì|right|adjective
+134|忙|máng|busy, occupied, hectic|adjective
+135|快|kuài|fast, quick, rapid|adjective
+136|慢|màn|slow, gentle, unhurried|adjective
+137|远|yuǎn|far, distant, remote|adjective
+138|近|jìn|close, near, nearby|adjective
+139|好吃|hǎochī|delicious, tasty, yummy|adjective
+140|累|lèi|tired, exhausted, fatigued|adjective
+141|长|cháng|long, lengthy, extended|adjective
+142|新|xīn|new, fresh, novel|adjective
+143|贵|guì|expensive, costly, precious|adjective
+144|便宜|piányi|cheap, inexpensive, affordable|adjective
+145|晴|qíng|fine, clear, sunny|adjective
+146|阴|yīn|cloudy, overcast, gloomy|adjective
+147|错|cuò|wrong, incorrect, mistaken|adjective
+148|快乐|kuàilè|happy, joyful, cheerful|adjective
+149|对|duì|to, towards, correct|adjective
+150|对|duì|right, correct, proper|adjective

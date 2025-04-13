@@ -1,9 +1,9 @@
 n|chinese|pinyin|english|part_of_speech
-1|我|wǒ|I, me|pronoun
-2|我们|wǒmen|we, us|pronoun
-3|你|nǐ|you|pronoun
-4|他|tā|he, him|pronoun
-5|她|tā|she, her|pronoun
+1|我|wǒ|I, me, myself|pronoun
+2|我们|wǒmen|we, us, ourselves|pronoun
+3|你|nǐ|you, yourself|pronoun
+4|他|tā|he, him, himself|pronoun
+5|她|tā|she, her, herself|pronoun
 6|这 (这儿)|zhè (zhèr)|this, here|pronoun
 7|那 (那儿)|nà (nàr)|that, there|pronoun
 8|哪|nǎ|which|pronoun
@@ -24,25 +24,25 @@ n|chinese|pinyin|english|part_of_speech
 23|八|bā|eight|numeral
 24|九|jiǔ|nine|numeral
 25|十|shí|ten|numeral
-26|个|gè|a measure word for normal objects|measure word
-27|岁|suì|a measure word for age|measure word
+26|个|gè|a measure word for normal objects, piece, unit|measure word
+27|岁|suì|a measure word for age, years old|measure word
 28|本|běn|a measure word for books|measure word
 29|些|xiē|some|measure word
-30|块|kuài|piece, chunk|measure word
+30|块|kuài|piece, chunk, block|measure word
 31|不|bù|no|adverb
 32|没|méi|no|adverb
-33|很|hěn|quite, very|adverb
-34|太|tài|too|adverb
-35|都|dōu|all|adverb
-36|一点儿|yīdiǎnr|a little bit|adverb
+33|很|hěn|quite, very, rather|adverb
+34|太|tài|too, extremely, overly|adverb
+35|都|dōu|all, both, entirely|adverb
+36|一点儿|yīdiǎnr|a little bit, slightly, a bit|adverb
 37|和|hé|and|conjunction
-38|在|zài|in, at|preposition
-39|的|de| |particle
-40|了|le| |particle
-41|吗|ma| |particle
-42|呢|ne| |particle
+38|在|zài|in, at, on|preposition
+39|的|de|of, 's, belonging to|particle
+40|了|le|action completion|particle
+41|吗|ma|a question particle, ?|particle
+42|呢|ne|question particle|particle
 43|喂|wèi|hello|interjection
-44|家|jiā|home|noun
+44|家|jiā|home, house, family|noun
 45|学校|xuéxiào|school|noun
 46|饭店|fàndiàn|restaurant|noun
 47|商店|shāngdiàn|store|noun
@@ -51,8 +51,8 @@ n|chinese|pinyin|english|part_of_speech
 50|北京|Běijīng|Beijing|noun
 51|上|shàng|up|noun
 52|下|xià|down|noun
-53|前面|qiánmiàn|front|noun
-54|后面|hòumiàn|behind|noun
+53|前面|qiánmiàn|front, ahead, in front|noun
+54|后面|hòumiàn|behind, back, rear|noun
 55|里|lǐmiàn|inside|noun
 56|今天|jīntiān|today|noun
 57|明天|míngtiān|tomorrow|noun
@@ -64,10 +64,10 @@ n|chinese|pinyin|english|part_of_speech
 63|月|yuè|month|noun
 64|号|hào|number/date|noun
 65|星期|xīngqī|week|noun
-66|点|diǎn|o’clock|noun
+66|点|diǎn|o'clock|noun
 67|分钟|fēnzhōng|minute|noun
 68|现在|xiànzài|now|noun
-69|时候|shíhou|time|noun
+69|时候|shíhou|time, moment, when|noun
 70|爸爸|bàba|father|noun
 71|妈妈|māma|mother|noun
 72|儿子|érzi|son|noun
@@ -81,7 +81,7 @@ n|chinese|pinyin|english|part_of_speech
 80|小姐|xiǎojiě|miss|noun
 81|衣服|yīfu|cloth|noun
 82|水|shuǐ|water|noun
-83|菜|cài|dish|noun
+83|菜|cài|dish, food, vegetable|noun
 84|米饭|mǐfàn|rice|noun
 85|水果|shuǐguǒ|fruit|noun
 86|苹果|píngguǒ|apple|noun
@@ -96,10 +96,10 @@ n|chinese|pinyin|english|part_of_speech
 95|天气|tiānqì|weather|noun
 96|猫|māo|cat|noun
 97|狗|gǒu|dog|noun
-98|东西|dōngxi|thing|noun
-99|人|rén|person|noun
+98|东西|dōngxi|thing, stuff, item|noun
+99|人|rén|person, people, human|noun
 100|名字|míngzi|name|noun
-101|书|shū|book|noun
+101|书|shū|book|noun    
 102|汉语|hànyǔ|mandarin chinese|noun
 103|字|zì|character|noun
 104|桌子|zhuōzi|desk|noun
@@ -109,16 +109,16 @@ n|chinese|pinyin|english|part_of_speech
 108|再见|zàijiàn|good bye|verb
 109|请|qǐng|please|verb
 110|对不起|duìbùqǐ|sorry|verb
-111|没关系|méiguānxì|It doesn’t matter|verb
-112|是|shì|to be|verb
-113|有|yǒu|have|verb
-114|看|kàn|look|verb
+111|没关系|méiguānxì|It doesn't matter|verb
+112|是|shì|to be, is, am, are|verb
+113|有|yǒu|have, has, possess, there is|verb
+114|看|kàn|look, watch, see|verb
 115|听|tīng|listen|verb
-116|说|shuō|speak|verb
+116|说|shuō|speak, say, talk|verb
 117|读|dú|read|verb
 118|写|xiě|write|verb
-119|看见|kànjiàn|see|verb
-120|叫|jiào|call|verb
+119|看见|kànjiàn|see, spot, notice|verb
+120|叫|jiào|call, name, be called|verb
 121|来|lái|come|verb
 122|回|huí|return|verb
 123|去|qù|go|verb
@@ -126,26 +126,26 @@ n|chinese|pinyin|english|part_of_speech
 125|喝|hē|drink|verb
 126|睡觉|shuìjiào|sleep|verb
 127|打电话|dǎdiànhuà|make phone call|verb
-128|做|zuò|do|verb
+128|做|zuò|do, make, act|verb
 129|买|mǎi|buy|verb
 130|开|kāi|open|verb
 131|坐|zuò|sit|verb
-132|住|zhù|live|verb
+132|住|zhù|live, stay, reside|verb
 133|学习|xuéxí|study|verb
 134|工作|gōngzuò|work|verb
 135|下雨|xiàyǔ|rain|verb
 136|爱|ài|love|verb
-137|喜欢|xǐhuān|love, like|verb
-138|想|xiǎng|want|verb
-139|认识|rènshi|know|verb
-140|会|huì|can|verb
-141|能|néng|can, be able to|verb
-142|好|hǎo|good|adjective
-143|大|dà|big|adjective
-144|小|xiǎo|small|adjective
-145|多|duō|many, much|adjective
-146|少|shǎo|few, little|adjective
+137|喜欢|xǐhuān|love, like, enjoy|verb
+138|想|xiǎng|want, think, miss|verb
+139|认识|rènshi|know, recognize, be acquainted with|verb
+140|会|huì|can, will, be able to|verb
+141|能|néng|can, be able to, capable|verb
+142|好|hǎo|good, fine, nice|adjective
+143|大|dà|big, large, great|adjective
+144|小|xiǎo|small, little, tiny|adjective
+145|多|duō|many, much, a lot|adjective
+146|少|shǎo|few, little, scarce|adjective
 147|冷|lěng|cold|adjective
 148|热|rè|hot|adjective
-149|高兴|gāoxìng|happy|adjective
-150|漂亮|piàoliang|beautiful|adjective
+149|高兴|gāoxìng|happy, glad, pleased|adjective
+150|漂亮|piàoliang|beautiful, pretty, attractive|adjective
